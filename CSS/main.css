@@ -13,25 +13,34 @@ h1, h2, h3{
 /*-----------------Main Nav---------------*/
 
 #mainheader{
-	background-color: black;
+	background-color: #2A83E8;
 	overflow: hidden;
 	height: 62px;
-	margin-bottom: 10px;
 }
 
-h1{
-	float: left;
-	background-color: blue;
+a{
+	text-decoration: none;
+	font-weight: bold;
 }
+
+header h2{
+	color: #D1D0C9;
+	font-weight: normal;
+	margin: 20px 50px;
+	width: 200px;
+	text-align: center;
+}
+
 nav ul li{
+	line-height: 15px;
+	font-family: "Helvetica";
 	list-style-type: none;
 	float: right;
 	padding: 10px;
-	background-color: red;
 }
 
 body{
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -41,19 +50,17 @@ body{
 
 h2{
 	float: left;
-	background-color: gray;
 	margin: 0 auto;
 	width: 500px;
-	text-align: center;
 }
 #mainimg{
 	float: right;
-	width: 400px;
+	width: 500px;
 }
 
 #sectionsubtext{
 	clear: both;
-	width: 900px;
+	width: 1000px;
 	height: 427px;
 	margin: 0;
 	background-color: blue;
@@ -66,7 +73,7 @@ h2{
 
 #sectionmain{
 	background-color: red;
-	width: 900px;
+	width: 1000px;
 	height: 200px;
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
@@ -86,6 +93,10 @@ h2{
 	float: left;
 }
 
+aside ul{
+	padding: 0;
+}
+
 aside ul li{
 	width: 75px;
 	height: 75px;
@@ -96,15 +107,14 @@ aside ul li{
 
 aside h3{
 	width: 180px;
-	margin: 5px auto;
+	margin-top: 0px;
 	margin-bottom: -15px;
-	text-align: center;
 }
 
 #divexternal{
 	background-color: green;
 	float: right;
-	width: 565px;
+	width: 665px;
 	height: 116px;
 }
 /*-----------------End of Sub-Content 2---------------*/
@@ -117,7 +127,7 @@ article{
 
 article h3{
 	background-color: red;
-	width: 900px;
+	width: 1000px;
 	text-align: center;
 }
 
