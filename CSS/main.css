@@ -78,7 +78,7 @@ body{
 
 h1{
 	float: left;
-	width: 500px;
+	width: 545px;
 	text-align: center;
 	font-size: 40px;
 	color: white;
@@ -87,12 +87,23 @@ h1{
 
 #mainimg{
 	float: right;
-	width: 480px;
+	width: 450px;
 	height: 420px;
 	margin: 5px 5px 0px 0px;
 }
 
-#sectionsubtext{
+#mainpara{
+	color: white;
+	overflow: hidden;
+	width: 515px;
+	height: 180px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+}
+
+#sectionmaintext{
 	clear: both;
 	width: 1000px;
 	height: 430px;
@@ -105,7 +116,7 @@ h1{
 
 /*-----------------Sub-Content 1---------------*/
 
-#sectionmain{
+#sectionsub{
 	background-color: red;
 	width: 1000px;
 	height: 200px;
