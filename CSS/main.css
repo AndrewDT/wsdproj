@@ -42,8 +42,8 @@ h2, h3{
 }
 
 #mainheader a:hover{
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: #142240;
 }
 
 header h2{
@@ -83,6 +83,7 @@ h1{
 	font-size: 40px;
 	color: white;
 	margin-top: 40px;
+	text-shadow: 5px 5px 5px black;
 }
 
 #mainimg{
