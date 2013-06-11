@@ -25,6 +25,7 @@ h2, h3{
 
 #logo{
 	float: left;
+	margin-left: 5px;
 }
 
 #mainheader a{
