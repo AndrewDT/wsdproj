@@ -101,7 +101,7 @@ h1{
 	padding-top: 20px;
 	padding-left: 20px;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #sectionmaintext{
@@ -115,20 +115,157 @@ h1{
 /*-----------------End of Main Content---------------*/
 
 
-/*-----------------Sub-Content 1---------------*/
+/*-----------------Ecto-Content---------------*/
 
-#sectionsub{
-	background-color: red;
-	width: 1000px;
-	height: 200px;
-	-moz-column-count: 3;
-	-moz-column-gap: 25px;
+#ectocontent{
+	overflow: hidden;
+	margin: 0px;
+	width: 120px;
+	height: 300px;
+	float: left;
+	margin-bottom: 20px;
 }
 
-/*-----------------End of Sub-Content 1---------------*/
+#headecto{
+	margin-top: 0px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#ectocontent ul{
+	margin-left: -40px;
+	margin-top: -19px;
+	height: 300px;
+	list-style-type: none;
+	
+}
+
+#ectocontent li{
+	margin-top: 60px;
+}
+
+#sectionecto{
+	float: right;
+	margin-top: 0px;
+	width: 870px;
+	height: 300px;
+	border-left: solid;
+}
+
+#ectop{
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	height: 260px;
+	margin: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+}
+
+/*-----------------End of Ecto-Content---------------*/
 
 
-/*-----------------Sub-Content 2---------------*/
+/*-----------------Start of Meso-Content---------------*/
+
+#mesocontent{
+	overflow: hidden;
+	margin: 0px;
+	width: 120px;
+	height: 300px;
+	float: left;
+	margin-bottom: 20px;
+
+}
+
+#headmeso{
+	margin-top: 0px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#mesocontent ul{
+	margin-left: -40px;
+	margin-top: -19px;
+	height: 300px;
+	list-style-type: none;
+	
+}
+
+#mesocontent li{
+	margin-top: 60px;
+}
+
+#sectionmeso{
+	float: right;
+	margin-top: 0px;
+	width: 870px;
+	height: 300px;
+	border-left:  solid;
+}
+
+#mesop{
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	height: 260px;
+	margin: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+}
+
+
+
+
+/*-----------------End of Meso Content---------------*/
+
+
+/*-----------------Start of Endo Content---------------*/
+
+#endocontent{
+	overflow: hidden;
+	margin: 0px;
+	width: 120px;
+	height: 300px;
+	float: left;
+}
+
+#headendo{
+	margin-top: 0px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+#endocontent ul{
+	margin-left: -40px;
+	margin-top: -19px;
+	height: 300px;
+	list-style-type: none;
+	
+}
+
+#endocontent li{
+	margin-top: 60px;
+}
+
+#sectionendo{
+	float: right;
+	margin-top: 0px;
+	width: 870px;
+	height: 300px;
+	border-left: solid;
+}
+
+#endop{
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	height: 260px;
+	margin: 20px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+}
+
+
+/*-----------------End of Endo Content---------------*/
+
+
 
 #asidegallery{
 	background-color: gray;
@@ -137,6 +274,7 @@ h1{
 	margin: 0;
 	overflow: hidden;
 	float: left;
+	margin-top: 20px;
 }
 
 aside ul{
@@ -162,6 +300,7 @@ aside h3{
 	float: right;
 	width: 665px;
 	height: 116px;
+	margin-top: 20px;
 }
 /*-----------------End of Sub-Content 2---------------*/
 
