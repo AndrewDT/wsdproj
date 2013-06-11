@@ -4,8 +4,13 @@
 	margin: 10px;
 }
 
-h1, h2, h3{
+h1{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3{
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 /*-----------------End of Supportive Classes--------------*/
@@ -13,7 +18,7 @@ h1, h2, h3{
 /*-----------------Main Nav---------------*/
 
 #mainheader{
-	background-color: #142240;
+	background-color: black;
 	overflow: hidden;
 	height: 62px;
 }
@@ -55,7 +60,8 @@ h1{
 	width: 500px;
 	background-color: white;
 	text-align: center;
-	margin-top: 183px;
+	margin-top: 40px;
+	font-size: 40px;
 }
 
 #mainimg{
@@ -70,7 +76,7 @@ h1{
 	width: 1000px;
 	height: 430px;
 	margin: 0;
-	background-color: blue;
+	background-color: #142240;
 	overflow: hidden;
 }
 /*-----------------End of Main Content---------------*/
