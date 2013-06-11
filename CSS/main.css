@@ -23,7 +23,7 @@ h2, h3{
 	height: 62px;
 }
 
-a{
+#mainheader a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -32,6 +32,8 @@ a{
 	line-height: 30px;
 	width: 115px;
 	text-align: center;
+	border-style: solid;
+	border-width: 1px;
 }
 
 a:hover{
