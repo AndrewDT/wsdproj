@@ -24,26 +24,40 @@ h2, h3{
 }
 
 a{
+	color: white;
 	text-decoration: none;
 	font-weight: bold;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 115px;
+	text-align: center;
+}
+
+a:hover{
+	color: black;
+	background-color: white;
 }
 
 header h2{
 	float: left;
-	color: #D1D0C9;
+	color: white;
 	font-weight: normal;
 	margin: 20px 50px;
 	width: 200px;
 	text-align: center;
 }
 
-nav ul li{
-	line-height: 15px;
+nav ul{
+	overflow: hidden;
+}
+
+nav li{
 	font-family: "Helvetica";
 	list-style-type: none;
 	float: right;
-	padding: 10px;
-	border-style: dashed;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 body{
@@ -58,10 +72,10 @@ body{
 h1{
 	float: left;
 	width: 500px;
-	background-color: white;
 	text-align: center;
-	margin-top: 40px;
 	font-size: 40px;
+	color: white;
+	margin-top: 40px;
 }
 
 #mainimg{
