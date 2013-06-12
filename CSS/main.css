@@ -1,4 +1,4 @@
-/*-----------------Supportive Classes--------------*/
+/*---------------------------------Start of Support Classes-----------------------------*/
 .container{
 	clear: both;
 	margin: 10px;
@@ -14,20 +14,19 @@ h2, h3{
 }
 
 /*.pagewhite{
-	background-color: rgba(225, 225, 225, .75);
-}*/
+	background-color: rgba(33, 33, 33, .75);
+}
+*/
 
 
+/*-----------------------------------End of Support Classes-----------------------------*/
 
-/*-----------------End of Supportive Classes--------------*/
-
-/*-----------------Main Nav---------------*/
+/*----------------------------------------Start of Main Nav-----------------------------*/
 
 #mainheader{
-	background-color: black;
+	background-color: rgba(143, 170, 191, .50);
 	overflow: hidden;
 	height: 62px;
-	opacity: .75;
 }
 
 #logo{
@@ -50,7 +49,7 @@ h2, h3{
 
 #mainheader a:hover{
 	color: white;
-	background-color: #142240;
+	background-color: rgba(20, 34, 64, .75);
 }
 
 header h2{
@@ -82,9 +81,9 @@ body{
 	background-attachment: fixed;
 }
 
-/*-----------------End of Main Nav---------------*/
+/*------------------------------------------End of Main Nav-----------------------------*/
 
-/*-----------------Main Content---------------*/
+/*----------------------------------------Start of Main Content-------------------------*/
 
 h1{
 	float: left;
@@ -123,19 +122,25 @@ h1{
 	background-color: rgba(20, 34, 64, .75);
 	overflow: hidden;
 }
-/*-----------------End of Main Content---------------*/
+/*------------------------------------------End of Main Content-------------------------*/
 
 
-/*-----------------Ecto-Content---------------*/
+/*----------------------------------------Start of Ecto Content-------------------------*/
 
 #ectocontent{
 	overflow: hidden;
 	margin: 0px;
-	width: 120px;
+	width: 127px;
 	height: 300px;
 	float: left;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	color: white;
+	text-align: center;
+	background-color: rgba(143, 170, 191, .50);
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
 }
 
 #headecto{
@@ -154,15 +159,23 @@ h1{
 
 #ectocontent li{
 	margin-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: white;
 }
 
 #sectionecto{
 	float: right;
-	margin-top: 0px;
+	margin-top: 20px;
 	width: 870px;
 	height: 300px;
-	border-left: solid;
 	color: white;
+	background-color: rgba(20, 34, 64, .75);
+	border-style: solid;
+	border-left: none;
+	border-width: 1px;
+	border-color: silver;
+
 }
 
 #ectop{
@@ -174,20 +187,24 @@ h1{
 	font-size: 14px;
 }
 
-/*-----------------End of Ecto-Content---------------*/
+/*------------------------------------------End of Ecto Content-------------------------*/
 
 
-/*-----------------Start of Meso-Content---------------*/
+/*----------------------------------------Start of Meso Content-------------------------*/
 
 #mesocontent{
 	overflow: hidden;
 	margin: 0px;
-	width: 120px;
+	width: 127px;
 	height: 300px;
 	float: left;
 	margin-bottom: 20px;
 	color: white;
-
+	text-align: center;
+	background-color: rgba(143, 170, 191, .50);
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
 }
 
 #headmeso{
@@ -206,6 +223,9 @@ h1{
 
 #mesocontent li{
 	margin-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: white;
 }
 
 #sectionmeso{
@@ -213,8 +233,12 @@ h1{
 	margin-top: 0px;
 	width: 870px;
 	height: 300px;
-	border-left:  solid;
 	color: white;
+	background-color: rgba(20, 34, 64, .75);
+	border-style: solid;
+	border-left: none;
+	border-width: 1px;
+	border-color: silver;
 }
 
 #mesop{
@@ -229,19 +253,22 @@ h1{
 
 
 
-/*-----------------End of Meso Content---------------*/
+/*------------------------------------------End of Meso Content-------------------------*/
 
 
-/*-----------------Start of Endo Content---------------*/
+/*----------------------------------------Start of Endo Content-------------------------*/
 
 #endocontent{
 	overflow: hidden;
 	margin: 0px;
-	width: 121px;
+	width: 127px;
 	height: 300px;
 	float: left;
-	background-color: #4d4d4d;
+	background-color: rgba(143, 170, 191, .50);
 	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
 }
 
 #headendo{
@@ -271,6 +298,10 @@ h1{
 	width: 870px;
 	height: 300px;
 	background-color: rgba(20, 34, 64, .75);
+	border-style: solid;
+	border-left: none;
+	border-width: 1px;
+	border-color: silver;
 }
 
 #endop{
@@ -284,30 +315,31 @@ h1{
 }
 
 
-/*-----------------End of Endo Content---------------*/
+/*------------------------------------------End of Endo Content-------------------------*/
 
 
-/*-----------------Start of Gallery/External Content---------------*/
+/*--------------------------------Start of Gallery/External Content---------------------*/
 
 
 
 
 #asidegallery{
-	width: 378px;
+	width: 1000px;
 	height: 116px;
-	margin: 0;
+	margin: 20px 0 0 0;
 	overflow: hidden;
 	float: left;
-	margin-top: 20px;
-	border-right: solid;
+	border-bottom: solid;
+	border-width: 2px;
 	color: white;
 }
 
 aside ul{
-	width: 378px;
+	width: 1000px;
 	margin-top: 26px;
+	margin-left: 24px;
 	overflow: hidden;
-	padding: 0px;
+	padding: 0 0 0 15px;
 }
 
 aside ul li{
@@ -321,23 +353,60 @@ aside ul li{
 	border-color: #4d4d4d;
 }
 
-aside h3, #divexternal h3{
+aside h3{
 	width: 180px;
 	margin-top: 0px;
 	margin-bottom: -15px;
-	text-decoration: underline;
+}
+/*----------------------------------End of Gallery Content---------------------*/
+
+/*-----------------------------------Start of Side/External Content---------------------*/
+
+article{
+	float: left;
+	background-color: rgba(20, 34, 64, .75);
+	margin-top: 20px;
+	width: 500x;
+	height: 115px;
+	color: white;
+
+}
+
+article h3{
+	background-color: rgba(143, 170, 191, .50);
+	width: 500px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+article p{
+	width: 490px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+ #divexternal h3{
+	width: 490px;
+	margin-top: 0px;
+	margin-bottom: -15px;
+	text-align: center;
+	background-color: rgba(143, 170, 191, .50);
+
 }
 
 #divexternal{
 	float: right;
-	width: 600px;
+	margin: 20px 0 0 0;
+	width: 490px;
 	height: 114px;
-	margin-top: 20px;
 	color: white;
+	background-color: rgba(20, 34, 64, .75);
 }
 
 #divexternal a{
 	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
 }
 #divexternal a:hover{
 	color: #142240;
@@ -356,18 +425,11 @@ aside h3, #divexternal h3{
 	margin-top: 12px;
 	display: block;
 }
-/*-----------------End of Sub-Content 2---------------*/
 
-/*-----------------Sub-Content 3---------------*/
+/*-------------------------------------End of Side/External Content---------------------*/
 
-article{
-	background-color: gray;
+
+footer{
+	margin-top: 400px;
+	clear: both;
 }
-
-article h3{
-	background-color: red;
-	width: 1000px;
-	text-align: center;
-}
-
-/*-----------------End of Sub-Content 3---------------*/
