@@ -373,7 +373,7 @@ article{
 }
 
 article h3{
-	background-color: rgba(143, 170, 191, .50);
+	background-color: rgb(20, 34, 64);
 	width: 500px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -391,7 +391,7 @@ article p{
 	margin-top: 0px;
 	margin-bottom: -15px;
 	text-align: center;
-	background-color: rgba(143, 170, 191, .50);
+	background-color: rgb(143, 170, 191);
 
 }
 
@@ -401,12 +401,13 @@ article p{
 	width: 490px;
 	height: 114px;
 	color: white;
-	background-color: rgba(20, 34, 64, .75);
+	background-color: rgba(143, 170, 191, .50);
 }
 
 #divexternal a{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
+	margin-left: 30px;
 }
 #divexternal a:hover{
 	color: #142240;
@@ -417,7 +418,7 @@ article p{
 }
 
 #bodyblink{
-	margin-top: 12px;
+	margin-top: 10px;
 	display: block;
 }
 
@@ -430,6 +431,7 @@ article p{
 
 
 footer{
-	margin-top: 400px;
+	background-color: rgba(143, 170, 191, .50);
+	margin-top: 200px;
 	clear: both;
 }
