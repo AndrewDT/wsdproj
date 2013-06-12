@@ -13,6 +13,12 @@ h2, h3{
 
 }
 
+/*.pagewhite{
+	background-color: rgba(225, 225, 225, .75);
+}*/
+
+
+
 /*-----------------End of Supportive Classes--------------*/
 
 /*-----------------Main Nav---------------*/
@@ -21,6 +27,7 @@ h2, h3{
 	background-color: black;
 	overflow: hidden;
 	height: 62px;
+	opacity: .75;
 }
 
 #logo{
@@ -70,6 +77,9 @@ nav li{
 body{
 	width: 1000px;
 	margin: 0 auto;
+	background: url(../Images/sitewallpaper.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*-----------------End of Main Nav---------------*/
@@ -91,6 +101,7 @@ h1{
 	width: 450px;
 	height: 420px;
 	margin: 5px 5px 0px 0px;
+	opacity: .75;
 }
 
 #mainpara{
@@ -109,7 +120,7 @@ h1{
 	width: 1000px;
 	height: 430px;
 	margin: 0;
-	background-color: #142240;
+	background-color: rgba(20, 34, 64, .75);
 	overflow: hidden;
 }
 /*-----------------End of Main Content---------------*/
@@ -124,6 +135,7 @@ h1{
 	height: 300px;
 	float: left;
 	margin-bottom: 20px;
+	color: white;
 }
 
 #headecto{
@@ -150,6 +162,7 @@ h1{
 	width: 870px;
 	height: 300px;
 	border-left: solid;
+	color: white;
 }
 
 #ectop{
@@ -173,6 +186,7 @@ h1{
 	height: 300px;
 	float: left;
 	margin-bottom: 20px;
+	color: white;
 
 }
 
@@ -200,6 +214,7 @@ h1{
 	width: 870px;
 	height: 300px;
 	border-left:  solid;
+	color: white;
 }
 
 #mesop{
@@ -222,15 +237,18 @@ h1{
 #endocontent{
 	overflow: hidden;
 	margin: 0px;
-	width: 120px;
+	width: 121px;
 	height: 300px;
 	float: left;
+	background-color: #4d4d4d;
+	text-align: center;
 }
 
 #headendo{
 	margin-top: 0px;
 	text-decoration: underline;
 	font-size: 18px;
+	color: white;
 }
 
 #endocontent ul{
@@ -238,11 +256,13 @@ h1{
 	margin-top: -19px;
 	height: 300px;
 	list-style-type: none;
-	
 }
 
 #endocontent li{
 	margin-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: white;
 }
 
 #sectionendo{
@@ -250,7 +270,7 @@ h1{
 	margin-top: 0px;
 	width: 870px;
 	height: 300px;
-	border-left: solid;
+	background-color: rgba(20, 34, 64, .75);
 }
 
 #endop{
@@ -260,47 +280,81 @@ h1{
 	margin: 20px;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
+	color: white;
 }
 
 
 /*-----------------End of Endo Content---------------*/
 
 
+/*-----------------Start of Gallery/External Content---------------*/
+
+
+
 
 #asidegallery{
-	background-color: gray;
-	width: 335px;
+	width: 378px;
 	height: 116px;
 	margin: 0;
 	overflow: hidden;
 	float: left;
 	margin-top: 20px;
+	border-right: solid;
+	color: white;
 }
 
 aside ul{
-	padding: 0;
+	width: 378px;
+	margin-top: 26px;
+	overflow: hidden;
+	padding: 0px;
 }
 
 aside ul li{
 	width: 75px;
 	height: 75px;
-	margin: 7px;
 	float: left;
+	margin-right: 15px;
 	list-style-type: none;
+	border: solid;
+	border-width: 2px;
+	border-color: #4d4d4d;
 }
 
-aside h3{
+aside h3, #divexternal h3{
 	width: 180px;
 	margin-top: 0px;
 	margin-bottom: -15px;
+	text-decoration: underline;
 }
 
 #divexternal{
-	background-color: green;
 	float: right;
-	width: 665px;
-	height: 116px;
+	width: 600px;
+	height: 114px;
 	margin-top: 20px;
+	color: white;
+}
+
+#divexternal a{
+	font-family: 'Droid Sans', sans-serif;
+}
+#divexternal a:hover{
+	color: #142240;
+}
+#mandslink{
+	margin-top: 24px;
+	display: block;
+}
+
+#bodyblink{
+	margin-top: 12px;
+	display: block;
+}
+
+#livestrlink{
+	margin-top: 12px;
+	display: block;
 }
 /*-----------------End of Sub-Content 2---------------*/
 
