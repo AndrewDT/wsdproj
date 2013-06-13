@@ -405,9 +405,12 @@ article p{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
 	margin-left: 30px;
+	text-decoration: none;
+	color: white;
 }
 #divexternal a:hover{
 	color: #142240;
+	text-decoration: underline;
 }
 #mandslink{
 	margin-top: 24px;
@@ -434,6 +437,7 @@ footer{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
 	overflow: hidden;
+	color: white;
 }
 
 footer ul{
@@ -447,6 +451,15 @@ footer li{
 	float: left;
 	list-style-type: none;
 	width: 495px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #142240;
+	text-decoration: underline;
 }
 
 #footercontact{
