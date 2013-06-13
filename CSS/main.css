@@ -13,11 +13,6 @@ h2, h3{
 
 }
 
-/*.pagewhite{
-	background-color: rgba(33, 33, 33, .75);
-}
-*/
-
 
 /*-----------------------------------End of Support Classes-----------------------------*/
 
@@ -383,7 +378,9 @@ article h3{
 article p{
 	width: 490px;
 	margin-top: 10px;
-	margin-left: 5px;
+	margin-left: 10px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
 }
 
  #divexternal h3{
@@ -432,6 +429,31 @@ article p{
 
 footer{
 	background-color: rgba(143, 170, 191, .50);
-	margin-top: 200px;
+	margin-top: 150px;
 	clear: both;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+footer ul{
+	padding: 0px;
+	overflow: hidden;
+	margin: 0px;
+	width: 1000px;
+}
+
+footer li{
+	float: left;
+	list-style-type: none;
+	width: 495px;
+}
+
+#footercontact{
+	text-align: left;
+	margin-left: 5px;
+}
+
+#footercopyright{
+	text-align: right;
 }
