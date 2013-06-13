@@ -1,4 +1,4 @@
-/*---------------------------------Start of Support Classes-----------------------------*/
+/*---------------------------------Site Wide Classes-----------------------------*/
 .container{
 	clear: both;
 	margin: 10px;
@@ -14,14 +14,15 @@ h2, h3{
 }
 
 
-/*-----------------------------------End of Support Classes-----------------------------*/
+/*---------------------------------End of Site Wide Classes-----------------------------*/
+
 
 /*----------------------------------------Start of Main Nav-----------------------------*/
 
 #mainheader{
+	height: 62px;
 	background-color: rgba(143, 170, 191, .50);
 	overflow: hidden;
-	height: 62px;
 }
 
 #logo{
@@ -30,16 +31,16 @@ h2, h3{
 }
 
 #mainheader a{
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-	display: block;
 	height: 30px;
-	line-height: 30px;
 	width: 115px;
-	text-align: center;
+	color: white;
+	display: block;
 	border-style: solid;
 	border-width: 1px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
 }
 
 #mainheader a:hover{
@@ -49,10 +50,10 @@ h2, h3{
 
 header h2{
 	float: left;
-	color: white;
-	font-weight: normal;
-	margin: 20px 50px 20px 0px;
 	width: 200px;
+	color: white;
+	margin: 20px 50px 20px 0px;
+	font-weight: normal;
 	text-align: center;
 }
 
@@ -61,11 +62,11 @@ nav ul{
 }
 
 nav li{
-	font-family: "Helvetica";
-	list-style-type: none;
 	float: right;
 	padding-left: 5px;
 	padding-right: 5px;
+	font-family: "Helvetica";
+	list-style-type: none;
 }
 
 body{
@@ -78,63 +79,64 @@ body{
 
 /*------------------------------------------End of Main Nav-----------------------------*/
 
+
 /*----------------------------------------Start of Main Content-------------------------*/
 
 h1{
 	float: left;
 	width: 545px;
-	text-align: center;
-	font-size: 40px;
 	color: white;
 	margin-top: 40px;
+	text-align: center;
+	font-size: 40px;
 	text-shadow: 5px 5px 5px black;
 }
 
 #mainimg{
 	float: right;
-	width: 450px;
 	height: 420px;
+	width: 450px;
 	margin: 5px 5px 0px 0px;
 	opacity: .75;
 }
 
 #mainpara{
-	color: white;
-	overflow: hidden;
-	width: 515px;
 	height: 180px;
+	width: 515px;
 	padding-top: 20px;
 	padding-left: 20px;
+	color: white;
+	overflow: hidden;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 16px;
 }
 
-#sectionmaintext{
+#sectionmaincontent{
 	clear: both;
-	width: 1000px;
 	height: 430px;
+	width: 1000px;
 	margin: 0;
 	background-color: rgba(20, 34, 64, .75);
 	overflow: hidden;
 }
 
-#sectionmaintext aside{
-	width: 227px;
+#sectionmaincontent aside{
 	height: 48px;
+	width: 227px;
 	margin-left: 17px;
 	margin-top: 20px;
 
 }
-#sectionmaintext aside img{
+#sectionmaincontent aside img{
+	height: 53px;	
 	width: 235px;
-	height: 53px;
 }
 
-#sectionmaintext a{
+#sectionmaincontent a{
 	outline: 0;
 }
 
-#sectionmaintext a:active{
+#sectionmaincontent a:active{
 	opacity: .75;
 }
 /*------------------------------------------End of Main Content-------------------------*/
@@ -143,19 +145,19 @@ h1{
 /*----------------------------------------Start of Ecto Content-------------------------*/
 
 #ectocontent{
-	overflow: hidden;
-	margin: 0px;
-	width: 127px;
-	height: 300px;
 	float: left;
+	height: 300px;	
+	width: 127px;
+	margin: 0px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: white;
-	text-align: center;
 	background-color: rgba(143, 170, 191, .50);
 	border-style: solid;
 	border-width: 1px;
 	border-color: silver;
+	text-align: center;
+	overflow: hidden;
 }
 
 #headecto{
@@ -165,25 +167,25 @@ h1{
 }
 
 #ectocontent ul{
+	height: 300px;
 	margin-left: -40px;
 	margin-top: -19px;
-	height: 300px;
 	list-style-type: none;
 	
 }
 
 #ectocontent li{
 	margin-top: 60px;
+	color: white;	
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	color: white;
 }
 
 #sectionecto{
 	float: right;
-	margin-top: 20px;
+	height: 300px;		
 	width: 870px;
-	height: 300px;
+	margin-top: 20px;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
@@ -208,11 +210,10 @@ h1{
 /*----------------------------------------Start of Meso Content-------------------------*/
 
 #mesocontent{
-	overflow: hidden;
-	margin: 0px;
-	width: 127px;
-	height: 300px;
 	float: left;
+	height: 300px;	
+	width: 127px;
+	margin: 0px;
 	margin-bottom: 20px;
 	color: white;
 	text-align: center;
@@ -220,6 +221,7 @@ h1{
 	border-style: solid;
 	border-width: 1px;
 	border-color: silver;
+	overflow: hidden;
 }
 
 #headmeso{
@@ -229,25 +231,25 @@ h1{
 }
 
 #mesocontent ul{
+	height: 300px;
 	margin-left: -40px;
 	margin-top: -19px;
-	height: 300px;
 	list-style-type: none;
 	
 }
 
 #mesocontent li{
 	margin-top: 60px;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	color: white;
 }
 
 #sectionmeso{
 	float: right;
-	margin-top: 0px;
-	width: 870px;
 	height: 300px;
+	width: 870px;	
+	margin-top: 0px;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
@@ -274,44 +276,44 @@ h1{
 /*----------------------------------------Start of Endo Content-------------------------*/
 
 #endocontent{
-	overflow: hidden;
-	margin: 0px;
-	width: 127px;
-	height: 300px;
 	float: left;
+	height: 300px;
+	width: 127px;
+	margin: 0px;
 	background-color: rgba(143, 170, 191, .50);
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
 	border-color: silver;
+	overflow: hidden;
 }
 
 #headendo{
 	margin-top: 0px;
+	color: white;
 	text-decoration: underline;
 	font-size: 18px;
-	color: white;
 }
 
 #endocontent ul{
+	height: 300px;
 	margin-left: -40px;
 	margin-top: -19px;
-	height: 300px;
 	list-style-type: none;
 }
 
 #endocontent li{
 	margin-top: 60px;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	color: white;
 }
 
 #sectionendo{
 	float: right;
-	margin-top: 0px;
-	width: 870px;
 	height: 300px;
+	width: 870px;
+	margin-top: 0px;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
 	border-left: none;
@@ -324,43 +326,43 @@ h1{
 	-moz-column-gap: 25px;
 	height: 260px;
 	margin: 20px;
+	color: white;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
-	color: white;
 }
 
 
 /*------------------------------------------End of Endo Content-------------------------*/
 
 
-/*--------------------------------Start of Gallery/External Content---------------------*/
+/*-----------------------------------------Start of Gallery Content---------------------*/
 
 
 
 
 #asidegallery{
-	width: 1000px;
-	height: 116px;
-	margin: 20px 0 0 0;
-	overflow: hidden;
 	float: left;
+	height: 116px;
+	width: 1000px;
+	margin: 20px 0 0 0;
+	color: white;
 	border-bottom: solid;
 	border-width: 2px;
-	color: white;
+	overflow: hidden;
 }
 
 aside ul{
 	width: 1000px;
 	margin-top: 26px;
 	margin-left: 24px;
-	overflow: hidden;
 	padding: 0 0 0 15px;
+	overflow: hidden;
 }
 
 aside ul li{
-	width: 75px;
-	height: 75px;
 	float: left;
+	height: 75px;
+	width: 75px;
 	margin-right: 15px;
 	list-style-type: none;
 	border: solid;
@@ -375,23 +377,24 @@ aside h3{
 }
 /*----------------------------------End of Gallery Content---------------------*/
 
+
 /*-----------------------------------Start of Side/External Content---------------------*/
 
 article{
 	float: left;
-	background-color: rgba(20, 34, 64, .75);
-	margin-top: 20px;
-	width: 500x;
 	height: 115px;
+	width: 500px;
+	margin-top: 20px;
 	color: white;
+	background-color: rgba(20, 34, 64, .75);
 
 }
 
 article h3{
-	background-color: rgb(20, 34, 64);
 	width: 500px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	background-color: rgb(20, 34, 64);
 	text-align: center;
 }
 
@@ -414,24 +417,26 @@ article p{
 
 #divexternal{
 	float: right;
-	margin: 20px 0 0 0;
-	width: 490px;
 	height: 114px;
+	width: 490px;
+	margin: 20px 0 0 0;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 }
 
 #divexternal a{
+	margin-left: 30px;
+	color: white;
+	text-decoration: none;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
-	margin-left: 30px;
-	text-decoration: none;
-	color: white;
 }
+
 #divexternal a:hover{
 	color: #142240;
 	text-decoration: underline;
 }
+
 #mandslink{
 	margin-top: 24px;
 	display: block;
@@ -450,27 +455,29 @@ article p{
 /*-------------------------------------End of Side/External Content---------------------*/
 
 
+/*-------------------------------------Start of Footer Content--------------------------*/
+
 footer{
-	background-color: rgba(143, 170, 191, .50);
-	margin-top: 150px;
 	clear: both;
+	margin-top: 150px;
+	color: white;
+	background-color: rgba(143, 170, 191, .50);
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 14px;
 	overflow: hidden;
-	color: white;
 }
 
 footer ul{
+	width: 1000px;
+	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-	margin: 0px;
-	width: 1000px;
 }
 
 footer li{
 	float: left;
-	list-style-type: none;
 	width: 495px;
+	list-style-type: none;
 }
 
 footer a{
@@ -490,3 +497,7 @@ footer a:hover{
 #footercopyright{
 	text-align: right;
 }
+
+
+
+/*---------------------------------------End of Footer Content--------------------------*/
