@@ -1,7 +1,7 @@
 /*---------------------------------Site Wide Classes-----------------------------*/
 .container{
 	clear: both;
-	margin: 10px;
+	margin: 1%; /* 10px/1000px */
 }
 
 h1{
@@ -27,7 +27,7 @@ h2, h3{
 
 #logo{
 	float: left;
-	margin-left: 5px;
+	margin-left: .5%; /* 5px/1000px */
 }
 
 #mainheader a{
@@ -50,9 +50,9 @@ h2, h3{
 
 header h2{
 	float: left;
-	width: 200px;
+	width: 20%; /* 200px/1000px */
 	color: white;
-	margin: 20px 50px 20px 0px;
+	margin: 2% 5% 2% 0%; /* 20px/1000px, 50px/1000px, 20px/1000px, 0px */
 	font-weight: normal;
 	text-align: center;
 }
@@ -63,8 +63,8 @@ nav ul{
 
 nav li{
 	float: right;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 1.305483%;
+	padding-right: 1.305483%;
 	font-family: "Helvetica";
 	list-style-type: none;
 }
@@ -84,56 +84,56 @@ body{
 
 h1{
 	float: left;
-	width: 545px;
+	width: 54.5%; /* 545px/1000px */
 	color: white;
-	margin-top: 40px;
+	margin-top: 4%; /* 40px/1000px */
 	text-align: center;
-	font-size: 40px;
+	font-size: 2.5em; /* 40px/16px */
 	text-shadow: 5px 5px 5px black;
 }
 
 #mainimg{
 	float: right;
 	height: 420px;
-	width: 450px;
-	margin: 5px 5px 0px 0px;
+	width: 45%; /* 450px/1000px */
+	margin: .5% .5% 0% 0%; /* 5px/1000px */
 	opacity: .75;
 }
 
 #mainpara{
 	height: 180px;
-	width: 515px;
-	padding-top: 20px;
-	padding-left: 20px;
+	width: 51.5%; /* 515px/1000px */
+	padding-top: 1.9834951%;
+	padding-left: 1.9834951%;
 	color: white;
 	overflow: hidden;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 }
 
 #sectionmaincontent{
 	clear: both;
 	height: 430px;
-	width: 1000px;
-	margin: 0;
+	width: 100%;
+	margin: 0%;
 	background-color: rgba(20, 34, 64, .75);
 	overflow: hidden;
 }
 
 #sectionmaincontent aside{
 	height: 48px;
-	width: 227px;
-	margin-left: 17px;
-	margin-top: 20px;
+	width: 22.7%; /* 227px/1000px */
+	margin-left: 1.7%; /* 17px/1000px */
+	margin-top: 2%; /* 20px/1000px */
 
 }
 #sectionmaincontent aside img{
 	height: 53px;	
-	width: 235px;
+	width: 103.524229%; /* 235px/227px */
 }
 
 #sectionmaincontent a{
-	outline: 0;
+	outline: 0%;
 }
 
 #sectionmaincontent a:active{
@@ -147,10 +147,8 @@ h1{
 #ectocontent{
 	float: left;
 	height: 300px;	
-	width: 127px;
-	margin: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 12.7%; /* 127px/1000px */
+	margin: 2% 0%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 	border-style: solid;
@@ -161,31 +159,31 @@ h1{
 }
 
 #headecto{
-	margin-top: 0px;
+	margin-top: 0%;
 	text-decoration: underline;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px/16px */
 }
 
 #ectocontent ul{
 	height: 300px;
-	margin-left: -40px;
-	margin-top: -19px;
+	margin-left: -31.496063%; /* -40px/127px */
+	margin-top: -14.96063px; /* -19px/127px */
 	list-style-type: none;
 	
 }
 
 #ectocontent li{
-	margin-top: 60px;
+	margin-top: 47.244094%; /* 60px/127px */
 	color: white;	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
+	font-size: .8125em; /* 13px/16px */
 }
 
 #sectionecto{
 	float: right;
 	height: 300px;		
-	width: 870px;
-	margin-top: 20px;
+	width: 87%; /* 870px/1000px */
+	margin-top: 2%;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
@@ -197,11 +195,11 @@ h1{
 
 #ectop{
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
+	-moz-column-gap: 2.8735632%; /* 25px/870px */
 	height: 260px;
-	margin: 20px;
+	margin: 2.2988506%; /* 20px/870px */
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 /*------------------------------------------End of Ecto Content-------------------------*/
@@ -212,9 +210,8 @@ h1{
 #mesocontent{
 	float: left;
 	height: 300px;	
-	width: 127px;
-	margin: 0px;
-	margin-bottom: 20px;
+	width: 12.7%; /* 127px/1000px */
+	margin: 0% 0% 2% 0%;
 	color: white;
 	text-align: center;
 	background-color: rgba(143, 170, 191, .50);
@@ -225,31 +222,31 @@ h1{
 }
 
 #headmeso{
-	margin-top: 0px;
+	margin-top: 0%;
 	text-decoration: underline;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px/16px */
 }
 
 #mesocontent ul{
 	height: 300px;
-	margin-left: -40px;
-	margin-top: -19px;
+	margin-left: -31.496063%; /* -40px/127px */
+	margin-top: -14.96063px; /* -19px/127px */
 	list-style-type: none;
 	
 }
 
 #mesocontent li{
-	margin-top: 60px;
+	margin-top: 47.244094%; /* 60px/127px */
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
+	font-size: .8125em; /* 13px/16px */
 }
 
 #sectionmeso{
 	float: right;
 	height: 300px;
-	width: 870px;	
-	margin-top: 0px;
+	width: 87%; /* 870px/1000px */
+	margin-top: 0%;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
@@ -260,11 +257,11 @@ h1{
 
 #mesop{
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
+	-moz-column-gap: 2.8735632%; /* 25px/870px */
 	height: 260px;
-	margin: 20px;
+	margin: 2.2988506%; /* 20px/870px */
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 
@@ -278,8 +275,8 @@ h1{
 #endocontent{
 	float: left;
 	height: 300px;
-	width: 127px;
-	margin: 0px;
+	width: 12.7%; /* 127px/1000px */
+	margin: 0%;
 	background-color: rgba(143, 170, 191, .50);
 	text-align: center;
 	border-style: solid;
@@ -289,31 +286,31 @@ h1{
 }
 
 #headendo{
-	margin-top: 0px;
+	margin-top: 0%;
 	color: white;
 	text-decoration: underline;
-	font-size: 18px;
+	font-size: 1.125em; /* 18px/16px */
 }
 
 #endocontent ul{
 	height: 300px;
-	margin-left: -40px;
-	margin-top: -19px;
+	margin-left: -31.496063%; /* -40px/127px */
+	margin-top: -14.96063px; /* -19px/127px */
 	list-style-type: none;
 }
 
 #endocontent li{
-	margin-top: 60px;
+	margin-top: 47.244094%; /* 60px/127px */
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
+	font-size: .8125em; /* 13px/16px */
 }
 
 #sectionendo{
 	float: right;
 	height: 300px;
-	width: 870px;
-	margin-top: 0px;
+	width: 87%; /* 870px/1000px */
+	margin-top: 0%;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
 	border-left: none;
@@ -323,12 +320,12 @@ h1{
 
 #endop{
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
+	-moz-column-gap: 2.8735632%; /* 25px/870px */
 	height: 260px;
-	margin: 20px;
+	margin: 2.2988506%; /* 20px/870px */
 	color: white;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 
@@ -343,7 +340,7 @@ h1{
 #asidegallery{
 	float: left;
 	height: 116px;
-	width: 1000px;
+	width: 100%;
 	margin: 20px 0 0 0;
 	color: white;
 	border-bottom: solid;
@@ -352,18 +349,18 @@ h1{
 }
 
 aside ul{
-	width: 1000px;
-	margin-top: 26px;
-	margin-left: 24px;
-	padding: 0 0 0 15px;
+	width: 100%;
+	margin-top: 2.6%; /* 26px/1000px */
+	margin-left: 2.4%; /* 24px/1000px */
+	padding: 0% 0% 0% 1.5%; /* 0, 0, 0, 15px/1000px */
 	overflow: hidden;
 }
 
 aside ul li{
 	float: left;
 	height: 75px;
-	width: 75px;
-	margin-right: 15px;
+	width: 7.5%; /* 75px/1000px */
+	margin-right: 1.5%; /* 15px/1000px */
 	list-style-type: none;
 	border: solid;
 	border-width: 2px;
@@ -371,9 +368,9 @@ aside ul li{
 }
 
 aside h3{
-	width: 180px;
-	margin-top: 0px;
-	margin-bottom: -15px;
+	width: 18%; /* 180px/1000px */
+	margin-top: 0%;
+	margin-bottom: -1.5%; /* -15px/1000px */
 }
 /*----------------------------------End of Gallery Content---------------------*/
 
@@ -383,33 +380,33 @@ aside h3{
 article{
 	float: left;
 	height: 115px;
-	width: 500px;
-	margin-top: 20px;
+	width: 50%; /* 500px/1000px */
+	margin-top: 2%; /* 20px/1000px */
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 
 }
 
 article h3{
-	width: 500px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	width: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 	background-color: rgb(20, 34, 64);
 	text-align: center;
 }
 
 article p{
-	width: 490px;
-	margin-top: 10px;
-	margin-left: 10px;
+	width: 98%; /* 480px/500px */
+	margin-top: 2%; /* 10px/500px */
+	margin-left: 2%; /* 10px/500px */
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em; /* 14px/16px */
 }
 
  #divexternal h3{
-	width: 490px;
-	margin-top: 0px;
-	margin-bottom: -15px;
+	width: 100%;
+	margin-top: 0%;
+	margin-bottom: -3.0612245%; /* 15px/490px */
 	text-align: center;
 	background-color: rgb(143, 170, 191);
 
@@ -418,8 +415,8 @@ article p{
 #divexternal{
 	float: right;
 	height: 114px;
-	width: 490px;
-	margin: 20px 0 0 0;
+	width: 49%;
+	margin: 2% 0% 0% 0%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 }
@@ -459,24 +456,24 @@ article p{
 
 footer{
 	clear: both;
-	margin-top: 150px;
+	margin-top: 15%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em; /* 14px/16px */
 	overflow: hidden;
 }
 
 footer ul{
-	width: 1000px;
-	margin: 0px;
-	padding: 0px;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
 	overflow: hidden;
 }
 
 footer li{
 	float: left;
-	width: 495px;
+	width: 49.5%;
 	list-style-type: none;
 }
 
@@ -491,7 +488,7 @@ footer a:hover{
 
 #footercontact{
 	text-align: left;
-	margin-left: 5px;
+	margin-left: .5%;
 }
 
 #footercopyright{
@@ -501,3 +498,40 @@ footer a:hover{
 
 
 /*---------------------------------------End of Footer Content--------------------------*/
+
+
+/*--------------------------------------Start of Media Queries--------------------------*/
+
+/* Tablet portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+	body {
+		background-image: none;
+		background-color: yellow;
+	}
+
+}
+
+/* Mobile Landscape size to Tablet portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	body {
+		background-image: none;
+		background-color: green;
+
+	}
+
+
+}
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	body {
+		background-image: none;
+		background-color: orange;
+
+	}
+
+
+}
