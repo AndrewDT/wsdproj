@@ -13,6 +13,9 @@ h2, h3{
 
 }
 
+img{
+	max-width: 100%;
+}
 
 /*---------------------------------End of Site Wide Classes-----------------------------*/
 
@@ -70,7 +73,7 @@ nav li{
 }
 
 body{
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	background: url(../Images/sitewallpaper.png);
 	background-repeat: no-repeat;
@@ -91,6 +94,7 @@ h1{
 	font-size: 2.5em; /* 40px/16px */
 	text-shadow: 5px 5px 5px black;
 }
+
 
 #mainimg{
 	float: right;
@@ -500,18 +504,225 @@ footer a:hover{
 /*---------------------------------------End of Footer Content--------------------------*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------Start of Media Queries--------------------------*/
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 959px) {
+@media screen and (min-width: 768px) and (max-width: 1015px) {
 
 	body {
 		background-image: none;
-		background-color: yellow;
+		background-color: black;
+		width: 98%;
 	}
+
+
+/*----------------------------------------Start of Main Nav-----------------------------*/
+
+
+nav li{
+	padding-left: .255483%;
+	padding-right: 1.055483%;
+}
+
+/*------------------------------------------End of Main Nav-----------------------------*/
+
+
+/*----------------------------------------Start of Main Content-------------------------*/
+
+h1{
+	font-size: 2.5em; /* 40px/16px */
+}
+
+
+
+
+#mainpara{
+	font-size: .9em;
+}
+/*------------------------------------------End of Main Content-------------------------*/
+
+
+/*----------------------------------------Start of Ecto Content-------------------------*/
+
+#ectocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+}
+
+#headecto{
+	text-decoration: underline;
+	font-size: .900em; /* 18px/16px */
+}
+
+#ectocontent ul{
+	display: none;
+	
+}
+
+
+#sectionecto{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+}
+
+#ectop{
+	font-size: .840em;
+}
+
+/*------------------------------------------End of Ecto Content-------------------------*/
+
+
+/*----------------------------------------Start of Meso Content-------------------------*/
+
+#mesocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+}
+
+#headmeso{
+	text-decoration: underline;
+	font-size: .900em; /* 18px/16px */
+}
+
+#mesocontent ul{
+	display: none;
+	
+}
+
+
+#sectionmeso{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+}
+
+#mesop{
+	font-size: .840em;
+}
+
+
+
+
+/*------------------------------------------End of Meso Content-------------------------*/
+
+
+/*----------------------------------------Start of Endo Content-------------------------*/
+
+#endocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
 
 }
 
+#headendo{
+	font-size: .900em; /* 18px/16px */
+}
+
+#endocontent ul{
+	display: none;
+}
+
+
+#sectionendo{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+
+}
+
+#endop{
+	font-size: .840em;
+}
+
+
+/*------------------------------------------End of Endo Content-------------------------*/
+
+
+/*-----------------------------------------Start of Gallery Content---------------------*/
+
+
+
+
+#asidegallery{
+	width: 100%;
+	margin: 2% 0% 0% 0%;
+}
+
+#asidegallery h3{
+	font-size: .900em;
+}
+
+aside ul{
+	margin-left: 0%;
+}
+
+
+/*----------------------------------End of Gallery Content---------------------*/
+
+
+/*-----------------------------------Start of Side/External Content---------------------*/
+
+article h3{
+	font-size: .900em;
+}
+
+article p{
+	font-size: .775em;
+}
+
+ #divexternal h3{
+	font-size: .900em;
+}
+
+#divexternal a{
+	font-size: .770em;
+	margin-left: 2%;
+}
+
+#mandslink{
+	margin-top: 6%;
+}
+
+#bodyblink{
+	margin: 1%;
+}
+
+#livestrlink{
+	margin: 1%;
+}
+
+/*-------------------------------------End of Side/External Content---------------------*/
+
+
+/*-------------------------------------Start of Footer Content--------------------------*/
+
+footer{
+	margin-top: 0%;
+	font-size: .675em;
+}
+	
+}
 /* Mobile Landscape size to Tablet portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -520,6 +731,7 @@ footer a:hover{
 		background-color: green;
 
 	}
+	
 
 
 }
