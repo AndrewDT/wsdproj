@@ -31,6 +31,7 @@ img{
 #logo{
 	float: left;
 	margin-left: .5%; /* 5px/1000px */
+	max-width: 100%;
 }
 
 #mainheader a{
@@ -51,6 +52,10 @@ img{
 	background-color: rgba(20, 34, 64, .75);
 }
 
+#linktotop{
+		width: 20%;
+}
+
 header h2{
 	float: left;
 	width: 20%; /* 200px/1000px */
@@ -58,6 +63,7 @@ header h2{
 	margin: 2% 5% 2% 0%; /* 20px/1000px, 50px/1000px, 20px/1000px, 0px */
 	font-weight: normal;
 	text-align: center;
+	font-size: 1.5em;
 }
 
 nav ul{
@@ -535,10 +541,17 @@ footer a:hover{
 
 /*----------------------------------------Start of Main Nav-----------------------------*/
 
+nav{
 
+}
 nav li{
 	padding-left: .255483%;
-	padding-right: 1.055483%;
+	padding-right: .955483%;
+}
+
+#linktotop {
+	width: 20%;
+	
 }
 
 /*------------------------------------------End of Main Nav-----------------------------*/
@@ -554,7 +567,7 @@ h1{
 
 
 #mainpara{
-	font-size: .9em;
+	font-size: .875em;
 }
 /*------------------------------------------End of Main Content-------------------------*/
 
@@ -565,6 +578,7 @@ h1{
 	float: none;
 	height: 20px;
 	margin-bottom: 0%;
+	width: 30%;
 }
 
 #headecto{
@@ -597,6 +611,7 @@ h1{
 	float: none;
 	height: 20px;
 	margin-bottom: 0%;
+	width: 30%;
 }
 
 #headmeso{
@@ -632,7 +647,7 @@ h1{
 	float: none;
 	height: 20px;
 	margin-bottom: 0%;
-
+	width: 30%;
 }
 
 #headendo{
@@ -728,12 +743,205 @@ footer{
 
 	body {
 		background-image: none;
-		background-color: green;
-
+		background-color: black;
+		width: 98%;
 	}
+
+
+/*----------------------------------------Start of Main Nav-----------------------------*/
+
+
+nav li{
+	display: none;
+}
+
+#linktotop{
+	float: right;
+	margin-top: 2.5%;
+	text-align: right;
+	width: 60%;
+	font-size: 2em;
+}
+
+
+
+/*------------------------------------------End of Main Nav-----------------------------*/
+
+
+/*----------------------------------------Start of Main Content-------------------------*/
+
+h1{
+	font-size: 3.5em;
+	width: 98%;
+}
+
+#mainimg{
+	display: none;
+}
+
+#mainpara{
+	height: 40%;
+	font-size: .875em;
+	width: 98%;
+}
+
+
+#sectionmaincontent aside{
+	height: 30%;
+	width: 30.146082%; /* 227px/1000px */
+	margin-left: 1.7%; /* 17px/1000px */
+	margin-top: -.25%; /* 20px/1000px */
+
+}
+#sectionmaincontent aside img{
+	height: 40.882629%;	
+	max-width: 103.524229%; /* 235px/227px */
+}
+/*------------------------------------------End of Main Content-------------------------*/
+
+
+/*----------------------------------------Start of Ecto Content-------------------------*/
+
+#ectocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 30%;
+}
+
+#headecto{
+	font-size: .900em; /* 18px/16px */
+}
+
+#ectocontent ul{
+	display: none;
 	
+}
 
 
+#sectionecto{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#ectop{
+	font-size: .800em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+/*------------------------------------------End of Ecto Content-------------------------*/
+
+
+/*----------------------------------------Start of Meso Content-------------------------*/
+
+#mesocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 30%;
+}
+
+#headmeso{
+	text-decoration: underline;
+	font-size: .900em; /* 18px/16px */
+}
+
+#mesocontent ul{
+	display: none;
+	
+}
+
+
+#sectionmeso{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#mesop{
+	font-size: .800em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+
+
+
+/*------------------------------------------End of Meso Content-------------------------*/
+
+
+/*----------------------------------------Start of Endo Content-------------------------*/
+
+#endocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 30%;
+}
+
+#headendo{
+	font-size: .900em; /* 18px/16px */
+}
+
+#endocontent ul{
+	display: none;
+}
+
+
+#sectionendo{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#endop{
+	font-size: .800em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+
+/*------------------------------------------End of Endo Content-------------------------*/
+
+
+/*-----------------------------------------Start of Gallery Content---------------------*/
+
+
+#asidegallery{
+	display: none;
+}
+
+/*----------------------------------End of Gallery Content---------------------*/
+
+
+/*-----------------------------------Start of Side/External Content---------------------*/
+
+article{
+	display: none;
+}
+
+#divexternal{
+	display: none;
+}
+
+/*-------------------------------------End of Side/External Content---------------------*/
+
+
+/*-------------------------------------Start of Footer Content--------------------------*/
+
+footer{
+	margin-top: 0%;
+	font-size: .575em;
+}
+	
 }
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
