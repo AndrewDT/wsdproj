@@ -916,7 +916,7 @@ h1{
 
 
 #asidegallery{
-	display: none;
+	float: none;
 }
 
 /*----------------------------------End of Gallery Content---------------------*/
@@ -946,12 +946,201 @@ footer{
 
 /* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-
 	body {
 		background-image: none;
-		background-color: orange;
-
+		background-color: black;
+		width: 98%;
 	}
 
+
+/*----------------------------------------Start of Main Nav-----------------------------*/
+
+
+nav li{
+	display: none;
+}
+
+#linktotop{
+	float: none;
+	margin-top: 3.5%;
+	text-align: center;
+	width: 98%;
+	font-size: 1.8em;
+}
+
+#logo{
+	display: none;
+}
+
+/*------------------------------------------End of Main Nav-----------------------------*/
+
+
+/*----------------------------------------Start of Main Content-------------------------*/
+
+h1{
+	font-size: 2.5em;
+	width: 98%;
+}
+
+#mainimg{
+	display: none;
+}
+
+#mainpara{
+	height: 80%;
+	font-size: .850em;
+	width: 98%;
+}
+
+
+#sectionmaincontent aside{
+	display: none;
+}
+
+
+/*------------------------------------------End of Main Content-------------------------*/
+
+
+/*----------------------------------------Start of Ecto Content-------------------------*/
+
+#ectocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 40%;
+}
+
+#headecto{
+	font-size: .875em; /* 18px/16px */
+}
+
+#ectocontent ul{
+	display: none;
+	
+}
+
+
+#sectionecto{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#ectop{
+	font-size: .750em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+/*------------------------------------------End of Ecto Content-------------------------*/
+
+
+/*----------------------------------------Start of Meso Content-------------------------*/
+
+#mesocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 40%;
+}
+
+#headmeso{
+	text-decoration: underline;
+	font-size: .875em; /* 18px/16px */
+}
+
+#mesocontent ul{
+	display: none;
+	
+}
+
+
+#sectionmeso{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#mesop{
+	font-size: .750em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+
+
+
+/*------------------------------------------End of Meso Content-------------------------*/
+
+
+/*----------------------------------------Start of Endo Content-------------------------*/
+
+#endocontent{
+	float: none;
+	height: 20px;
+	margin-bottom: 0%;
+	margin-left: 1.5%;
+	width: 40%;
+}
+
+#headendo{
+	font-size: .875em; /* 18px/16px */
+}
+
+#endocontent ul{
+	display: none;
+}
+
+
+#sectionendo{
+	float: none;
+	margin-top: 0%;
+	width: 100%;
+	height: 90%;
+}
+
+#endop{
+	font-size: .750em;
+	-moz-column-count: 1;
+	height: 90%;
+}
+
+
+/*------------------------------------------End of Endo Content-------------------------*/
+
+
+/*-----------------------------------------Start of Gallery Content---------------------*/
+
+
+#asidegallery{
+	display: none;
+}
+
+/*----------------------------------End of Gallery Content---------------------*/
+
+
+/*-----------------------------------Start of Side/External Content---------------------*/
+
+article{
+	display: none;
+}
+
+#divexternal{
+	display: none;
+}
+
+/*-------------------------------------End of Side/External Content---------------------*/
+
+
+/*-------------------------------------Start of Footer Content--------------------------*/
+
+footer{
+	margin-top: 0%;
+	font-size: .575em;
+}
 
 }
