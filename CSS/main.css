@@ -36,7 +36,7 @@ img{
 
 #mainheader a{
 	height: 30px;
-	width: 115px;
+	width: 100%;
 	color: white;
 	display: block;
 	border-style: solid;
@@ -72,6 +72,7 @@ nav ul{
 
 nav li{
 	float: right;
+	width: 25%;
 	padding-left: 1.305483%;
 	padding-right: 1.305483%;
 	font-family: "Helvetica";
@@ -239,7 +240,7 @@ h1{
 #mesocontent ul{
 	height: 300px;
 	margin-left: -31.496063%; /* -40px/127px */
-	margin-top: -14.96063px; /* -19px/127px */
+	margin-top: -14.96063%; /* -19px/127px */
 	list-style-type: none;
 	
 }
@@ -304,7 +305,7 @@ h1{
 #endocontent ul{
 	height: 300px;
 	margin-left: -31.496063%; /* -40px/127px */
-	margin-top: -14.96063px; /* -19px/127px */
+	margin-top: -14.96063%; /* -19px/127px */
 	list-style-type: none;
 }
 
@@ -350,7 +351,7 @@ h1{
 	float: left;
 	height: 116px;
 	width: 100%;
-	margin: 20px 0 0 0;
+	margin: 2% 0% 0% 0%;
 	color: white;
 	border-bottom: solid;
 	border-width: 2px;
@@ -431,11 +432,11 @@ article p{
 }
 
 #divexternal a{
-	margin-left: 30px;
+	margin-left: 6.122449%; /* 30px/490px */
 	color: white;
 	text-decoration: none;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 14px;
+	font-size: .875em; /* 14px/16px */
 }
 
 #divexternal a:hover{
@@ -526,7 +527,7 @@ footer a:hover{
 
 
 
-/*--------------------------------------Start of Media Queries--------------------------*/
+/*--------------------------------------START OF MEDIA QUERIES--------------------------*/
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 1015px) {
@@ -579,6 +580,7 @@ h1{
 #ectocontent{
 	float: none;
 	height: 20px;
+	margin-top: 30px;
 	margin-bottom: 0%;
 	width: 30%;
 }
@@ -597,11 +599,12 @@ h1{
 #sectionecto{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 }
 
 #ectop{
-	font-size: .840em;
+	font-size: .872em;
 }
 
 /*------------------------------------------End of Ecto Content-------------------------*/
@@ -630,11 +633,12 @@ h1{
 #sectionmeso{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 }
 
 #mesop{
-	font-size: .840em;
+	font-size: .872em;
 }
 
 
@@ -669,7 +673,7 @@ h1{
 }
 
 #endop{
-	font-size: .840em;
+	font-size: .872em;
 }
 
 
@@ -699,6 +703,10 @@ aside ul{
 
 
 /*-----------------------------------Start of Side/External Content---------------------*/
+
+article{
+	margin-bottom: 6px;
+}
 
 article h3{
 	font-size: .900em;
@@ -735,7 +743,6 @@ article p{
 /*-------------------------------------Start of Footer Content--------------------------*/
 
 footer{
-	margin-top: 0%;
 	font-size: .675em;
 }
 	
@@ -808,6 +815,7 @@ h1{
 	float: none;
 	height: 20px;
 	margin-bottom: 0%;
+	margin-top: 30px;
 	margin-left: 1.5%;
 	width: 30%;
 }
@@ -825,6 +833,7 @@ h1{
 #sectionecto{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -862,6 +871,7 @@ h1{
 #sectionmeso{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -900,6 +910,7 @@ h1{
 #sectionendo{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -940,7 +951,7 @@ article{
 /*-------------------------------------Start of Footer Content--------------------------*/
 
 footer{
-	margin-top: 0%;
+	margin-top: -12px;
 	font-size: .575em;
 }
 	
@@ -1010,12 +1021,13 @@ h1{
 	float: none;
 	height: 20px;
 	margin-bottom: 0%;
+	margin-top: 30px;
 	margin-left: 1.5%;
-	width: 35%;
+	width: 30%;
 }
 
 #headecto{
-	font-size: .875em; /* 18px/16px */
+	font-size: .800em; /* 18px/16px */
 }
 
 #ectocontent ul{
@@ -1027,6 +1039,7 @@ h1{
 #sectionecto{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -1047,12 +1060,12 @@ h1{
 	height: 20px;
 	margin-bottom: 0%;
 	margin-left: 1.5%;
-	width: 35%;
+	width: 30%;
 }
 
 #headmeso{
 	text-decoration: underline;
-	font-size: .875em; /* 18px/16px */
+	font-size: .800em; /* 18px/16px */
 }
 
 #mesocontent ul{
@@ -1064,6 +1077,7 @@ h1{
 #sectionmeso{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -1087,11 +1101,11 @@ h1{
 	height: 20px;
 	margin-bottom: 0%;
 	margin-left: 1.5%;
-	width: 35%;
+	width: 30%;
 }
 
 #headendo{
-	font-size: .875em; /* 18px/16px */
+	font-size: .800em; /* 18px/16px */
 }
 
 #endocontent ul{
@@ -1102,6 +1116,7 @@ h1{
 #sectionendo{
 	float: none;
 	margin-top: 0%;
+	margin-bottom: 20px;
 	width: 100%;
 	height: 90%;
 }
@@ -1142,7 +1157,7 @@ article{
 /*-------------------------------------Start of Footer Content--------------------------*/
 
 footer{
-	margin-top: 0%;
+	margin-top: -12px;
 	font-size: .575em;
 }
 
