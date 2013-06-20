@@ -69,7 +69,7 @@ nav ul{
 
 nav li{
 	float: right;
-	width: 25%;
+	width: 25%; 
 	padding-left: 1.305483%;
 	padding-right: 1.305483%;
 	font-family: "Helvetica";
@@ -189,7 +189,7 @@ h1{
 #sectionecto{
 	float: right;
 	height: 300px;		
-	width: 87%; /* 870px/1000px */
+	width: 86.98%;
 	margin-top: 2%;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
@@ -252,7 +252,7 @@ h1{
 #sectionmeso{
 	float: right;
 	height: 300px;
-	width: 87%; /* 870px/1000px */
+	width: 86.98%;
 	margin-top: 0%;
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
@@ -316,7 +316,7 @@ h1{
 #sectionendo{
 	float: right;
 	height: 300px;
-	width: 87%; /* 870px/1000px */
+	width: 86.98%;
 	margin-top: 0%;
 	background-color: rgba(20, 34, 64, .75);
 	border-style: solid;
@@ -527,7 +527,7 @@ footer a:hover{
 /*--------------------------------------START OF MEDIA QUERIES--------------------------*/
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 1015px) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
 
 	body {
 		background-image: none;
