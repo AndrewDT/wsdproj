@@ -52,9 +52,6 @@ img{
 	background-color: rgba(20, 34, 64, .75);
 }
 
-#linktotop{
-		width: 20%;
-}
 
 header h2{
 	float: left;
@@ -63,7 +60,7 @@ header h2{
 	margin: 2% 5% 2% 0%; /* 20px/1000px, 50px/1000px, 20px/1000px, 0px */
 	font-weight: normal;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5em; /* 24px/16px */
 }
 
 nav ul{
@@ -821,7 +818,7 @@ h1{
 }
 
 #headecto{
-	font-size: .900em; /* 18px/16px */
+	font-size: .900em;
 }
 
 #ectocontent ul{
@@ -859,7 +856,7 @@ h1{
 
 #headmeso{
 	text-decoration: underline;
-	font-size: .900em; /* 18px/16px */
+	font-size: .900em;
 }
 
 #mesocontent ul{
@@ -899,7 +896,7 @@ h1{
 }
 
 #headendo{
-	font-size: .900em; /* 18px/16px */
+	font-size: .900em;
 }
 
 #endocontent ul{
@@ -1001,14 +998,18 @@ h1{
 }
 
 #mainpara{
-	height: 80%;
+	height: 55%;
 	font-size: .850em;
 	width: 98%;
+
 }
 
-
 #sectionmaincontent aside{
-	display: none;
+	width: 45%;
+}
+#sectionmaincontent aside img{
+	width: 103%;
+
 }
 
 
@@ -1027,7 +1028,7 @@ h1{
 }
 
 #headecto{
-	font-size: .800em; /* 18px/16px */
+	font-size: .800em;
 }
 
 #ectocontent ul{
@@ -1065,7 +1066,7 @@ h1{
 
 #headmeso{
 	text-decoration: underline;
-	font-size: .800em; /* 18px/16px */
+	font-size: .800em;
 }
 
 #mesocontent ul{
@@ -1105,7 +1106,7 @@ h1{
 }
 
 #headendo{
-	font-size: .800em; /* 18px/16px */
+	font-size: .800em;
 }
 
 #endocontent ul{
