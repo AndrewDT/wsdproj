@@ -348,7 +348,7 @@ h1{
 	float: left;
 	height: 116px;
 	width: 100%;
-	margin: 2% 0% 0% 0%;
+	margin: 2% 0% 2% 0%;
 	color: white;
 	border-bottom: solid;
 	border-width: 2px;
@@ -382,13 +382,93 @@ aside h3{
 /*----------------------------------End of Gallery Content---------------------*/
 
 
+
+/*--------------------------------------Start of Table/Form Content---------------------*/
+
+#tableformdiv{
+	background-color: yellow;
+	clear: both;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+}
+
+table{
+	width: 65%;
+	float: left;
+}
+
+table, th, td{
+	border: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	height: 50px;
+	border-color: silver;
+}
+
+td{
+	font-size: .850em;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#headerrow{
+	background-color: rgba(143, 170, 191, .50);
+	font-size: 1em; /* 18px/16px */
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+#ectorow{
+	background-color: rgba(20, 34, 64, 1);
+	color: white;
+}
+
+#mesorow{
+		background-color: rgba(20, 34, 64, .5);
+		color: white;
+}
+
+#endorow{
+	background-color: rgba(20, 34, 64, 1);
+	color: white;
+}
+
+#signupform{
+	float: right;
+		background-color: rgba(20, 34, 64, .75);
+	width: 33%;
+	height: 211px;
+	margin-bottom: 15px;
+	border: 1px;
+	border-style: solid;
+	border-color: silver;
+	padding-left: .5em;
+}
+
+#signupform h3{
+	color: white;
+	text-decoration: underline;
+}
+
+#signupform ul li{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	list-style-type: none;
+	margin-left: -14%;
+	margin-bottom: 5px;
+}
+
+#signupform p{
+	margin-top: 10px;
+}
 /*-----------------------------------Start of Side/External Content---------------------*/
 
 article{
 	float: left;
 	height: 115px;
 	width: 50%; /* 500px/1000px */
-	margin-top: 2%; /* 20px/1000px */
+	margin-top: 0%; /* 20px/1000px */
 	color: white;
 	background-color: rgba(20, 34, 64, .75);
 
@@ -423,7 +503,7 @@ article p{
 	float: right;
 	height: 114px;
 	width: 49%;
-	margin: 2% 0% 0% 0%;
+	margin: 0% 0% 0% 0%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 }
@@ -463,7 +543,7 @@ article p{
 
 footer{
 	clear: both;
-	margin-top: 15%;
+	margin-top: 13.25%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 	font-family: 'Droid Sans', sans-serif;
