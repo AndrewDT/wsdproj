@@ -159,19 +159,37 @@
 	</table>
 	
 	<div id="signupform">
-		<h3>Sign-Up for Our Newsletter!</h3>
-		<ul>
-			<li>-Receive special articles</li>
-			<li>-Receive diet and work out tips</li>
-			<li>-Receive special promotions</li>
-		</ul>
-		<form>
-			<input type="text" placeholder="E-mail Address">
-		<p class="submit"><input type="submit" name="commit" value="Sign-Up"></p>
+		<h3>Need Personal Help?</h3>
+		<form method="get" action="">
+		<div id="firstnamediv">
+			<label>First Name:</label>
+			<input type="text" name="firstname" id="firstname" placeholder="Hugh">
+		</div>
+		<div id="lastnamediv">
+			<label>Last Name:</label>
+			<input type="text" name="lastname" id="lastname" placeholder="Jackman">
+		</div>
+		<div id="emaildiv">
+			<label>E-Mail Address:</label>
+			<input type="text" name="e-mail" id="e-mail" placeholder="hughjack@gmail.com">
+		</div>
+		<select name="somatoformlist" id="somatoformlist">
+			<option>Ectomorph (Pure)</option>
+			<option>Mesomorph (Pure)</option>
+			<option>Endomorph (Pure)</option>
+			<option>Ecto/Meso</option>
+			<option>Meso/Endo</option>
+		</select>
+		<p class="submit"><input type="submit" name="commit" value="Submit Info"></p>
 		</form>
 	</div>
 	
 	<div id="tableformdiv"></div>
+	
+	
+<!--............................End of Table/Form Content...........................-->
+
+	
 <!--..........................Start of Side/External Content........................-->
 
 		<div class="container"></div>	
