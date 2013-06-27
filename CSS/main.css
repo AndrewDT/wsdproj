@@ -492,7 +492,7 @@ td{
 
 article{
 	float: left;
-	height: 115px;
+	height: 130px;
 	width: 50%; /* 500px/1000px */
 	margin-top: 0%; /* 20px/1000px */
 	color: white;
@@ -527,7 +527,7 @@ article p{
 
 #divexternal{
 	float: right;
-	height: 114px;
+	height: 129px;
 	width: 49%;
 	margin: 0% 0% 0% 0%;
 	color: white;
@@ -569,7 +569,7 @@ article p{
 
 footer{
 	clear: both;
-	margin-top: 13.25%;
+	margin-top: 15.25%;
 	color: white;
 	background-color: rgba(143, 170, 191, .50);
 	font-family: 'Droid Sans', sans-serif;
@@ -835,7 +835,7 @@ article h3{
 }
 
 article p{
-	font-size: .775em;
+	font-size: .825em;
 }
 
  #divexternal h3{
@@ -843,12 +843,12 @@ article p{
 }
 
 #divexternal a{
-	font-size: .770em;
+	font-size: .790em;
 	margin-left: 2%;
 }
 
 #mandslink{
-	margin-top: 6%;
+	margin-top: 4.5%;
 }
 
 #bodyblink{
@@ -1051,7 +1051,21 @@ h1{
 
 
 #asidegallery{
-	display: none;
+	height: 200px;
+	width:98%;
+	margin-top:-4px;
+	float: none;
+	border: none;
+}
+
+#asidegallery h3{
+	font-size: .900em;
+}
+
+#asidegallery li{
+	margin-left: 5%;
+	margin-top: 6px;
+	width: 10%;
 }
 
 /*----------------------------------End of Gallery Content---------------------*/
@@ -1079,7 +1093,7 @@ table td{
 }
 
 #tableformdiv{
-	margin-bottom: 15px;
+	border: none;
 }
 
 
@@ -1104,7 +1118,7 @@ article{
 /*-------------------------------------Start of Footer Content--------------------------*/
 
 footer{
-	margin-top: -12px;
+	margin-top: -50px;
 	font-size: .575em;
 }
 	
@@ -1292,7 +1306,21 @@ h1{
 
 
 #asidegallery{
-	display: none;
+	height: 200px;
+	width:98%;
+	margin-top:-4px;
+	float: none;
+	border: none;
+}
+
+#asidegallery h3{
+	font-size: .900em;
+}
+
+#asidegallery li{
+	margin-left: 4.5%;
+	margin-top: 6px;
+	width: 12%;
 }
 
 /*----------------------------------End of Gallery Content---------------------*/
@@ -1320,6 +1348,7 @@ table td{
 
 #tableformdiv{
 	margin-bottom: 15px;
+	display:none;
 }
 
 
