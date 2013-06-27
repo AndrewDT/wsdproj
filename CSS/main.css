@@ -827,7 +827,7 @@ table{
 /*-----------------------------------Start of Side/External Content---------------------*/
 
 article{
-	margin-bottom: 6px;
+	margin-bottom: 13px;
 }
 
 article h3{
@@ -843,12 +843,12 @@ article p{
 }
 
 #divexternal a{
-	font-size: .790em;
+	font-size: .800em;
 	margin-left: 2%;
 }
 
 #mandslink{
-	margin-top: 4.5%;
+	margin-top: 5.5%;
 }
 
 #bodyblink{
@@ -1093,7 +1093,7 @@ table td{
 }
 
 #tableformdiv{
-	border: none;
+	display: none;
 }
 
 
@@ -1118,7 +1118,7 @@ article{
 /*-------------------------------------Start of Footer Content--------------------------*/
 
 footer{
-	margin-top: -50px;
+	margin-top: -10px;
 	font-size: .575em;
 }
 	
