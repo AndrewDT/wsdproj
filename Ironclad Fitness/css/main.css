@@ -1,0 +1,295 @@
+body{
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(125,185,232,1) 0%, rgba(43,136,217,1) 36%, rgba(32,124,202,1) 71%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(125,185,232,1)), color-stop(36%,rgba(43,136,217,1)), color-stop(71%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(125,185,232,1) 0%,rgba(43,136,217,1) 36%,rgba(32,124,202,1) 71%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(125,185,232,1) 0%,rgba(43,136,217,1) 36%,rgba(32,124,202,1) 71%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(125,185,232,1) 0%,rgba(43,136,217,1) 36%,rgba(32,124,202,1) 71%,rgba(125,185,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(125,185,232,1) 0%,rgba(43,136,217,1) 36%,rgba(32,124,202,1) 71%,rgba(125,185,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */ endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+    font-family: "Arial";
+}
+
+#container{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: -8px;
+    overflow: hidden;
+}
+
+/*-----------------Header and Banner Gallery Styles-----------------------------*/
+
+#header{
+    float: left;
+}
+
+#header img{
+    margin-left: 10%;
+}
+
+#homeCTA{
+    clear: both;
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#imageGallery img{
+    border-radius: 10px;
+}
+
+
+#galleryButtons{
+    margin-left: 46.5%;
+    margin-top: 10px;
+}
+
+#galleryButtons button{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: rgb(0,200,200);
+    outline: none;
+}
+
+#galleryButtons .active{
+    background-color: rgba(0,125,220,.8);
+}
+
+#galleryButtons button:hover{
+    background-color: rgba(0,150,220,.7);
+}
+
+
+/*-----------------Video Gallery Styles-----------------------------*/
+
+#videoGallery{
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#videoGallery h3{
+    width: 100%;
+    border-bottom: solid 4pt;
+    border-radius: 5px;
+    border-color: rgb(150,150,150);
+}
+
+#videoGallery video{
+    margin-left: .7%;
+    border-radius: 10px;
+}
+
+
+/*-----------------Interactive Map Styles-----------------------------*/
+
+
+#content1Home{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#content1Home h3{
+    width: 110%;
+    border-bottom: solid 4pt;
+    border-radius: 5px;
+    border-color: rgb(150,150,150);
+}
+
+#westIcon{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 75px;
+    opacity: .8;
+}
+
+#westInfo{
+    background-color: rgba(0,0,0,.4);
+    width: 5%;
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 115px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#midWestIcon{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 230px;
+    opacity: .8;
+}
+
+#midWestInfo{
+    background-color: rgba(0,0,0,.4);
+    width: 5%;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 285px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#southIcon{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 250px;
+    opacity: .8;
+}
+
+#southInfo{
+    background-color: rgba(0,0,0,.4);
+    width: 5%;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 305px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#northIcon{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 400px;
+    opacity: .8;
+}
+
+#northInfo{
+    background-color: rgba(0,0,0,.4);
+    width: 5%;
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 455px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+
+/*-----------------Animated Bar Chart Styles-----------------------------*/
+
+
+#content2Home{
+    float: right;
+    width: 41%;
+    overflow: hidden;
+    margin-right: 3%;
+}
+
+#content2Home div{
+    margin-left: 1%;
+}
+
+#content2Home h3{
+    width: 90%;
+    border-bottom: solid 4pt;
+    border-radius: 5px;
+    border-color: rgb(150,150,150);
+}
+
+ul{
+    margin-left: -7%;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: -.5%;
+    margin-top: -5px;
+}
+
+
+#content2Home p{
+    width: 80%;
+    font-size: 10pt;
+}
+
+
+#content2Home button{
+    width: 20px;
+    height: 60px;
+    padding-left: 4.5px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: lightblue;
+    outline: none;
+}
+
+#content2Home button:hover{
+    background-color: rgb(0,150,225);
+}
+
+
+#bar1{
+    width: 5px;
+    height: 5px;
+    background-image: url(../images/runningIcon.png);
+    background-repeat: repeat;
+    float:left;
+}
+
+#bar1Label{
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    float:left;
+}
+
+#bar2{
+    width: 5px;
+    height: 5px;
+    background-image: url(../images/runningIcon.png);
+    background-repeat: repeat;
+    float:left;
+}
+
+#bar2Label{
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    float:left;
+}
+
+
+#bar3{
+    width: 5px;
+    height: 5px;
+    background-image: url(../images/runningIcon.png);
+    background-repeat: repeat;
+    float:left;
+}
+
+#bar3Label{
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    float:left;
+}
+
+
+/*-----------------Footer Styles-----------------------------*/
+
+
+footer{
+    clear: both;
+    height: 40px;
+    border-top: solid 2px;
+    border-radius: 5px;
+    border-color: rgb(150,150,150);
+    font-size: 10pt;
+    width: 100%;
+    text-align: center;
+}
+
