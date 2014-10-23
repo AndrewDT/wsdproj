@@ -1,0 +1,220 @@
+body{
+    font-family: "Gill Sans";
+    background-color: black;
+}
+
+#introduction{
+    width: 100.26%;
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(top, #e2e2e2 0%, #f2f2f2 23%, #ffffff 50%, #f2f2f2 81%, #e2e2e2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(23%,#f2f2f2), color-stop(50%,#ffffff), color-stop(81%,#f2f2f2), color-stop(100%,#e2e2e2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #e2e2e2 0%,#f2f2f2 23%,#ffffff 50%,#f2f2f2 81%,#e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #e2e2e2 0%,#f2f2f2 23%,#ffffff 50%,#f2f2f2 81%,#e2e2e2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #e2e2e2 0%,#f2f2f2 23%,#ffffff 50%,#f2f2f2 81%,#e2e2e2 100%); /* IE10+ */
+background: linear-gradient(to bottom, #e2e2e2 0%,#f2f2f2 23%,#ffffff 50%,#f2f2f2 81%,#e2e2e2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+    overflow: hidden;
+}
+
+#introduction img{
+    float: left;
+    margin-left: 2%;
+}
+
+#introduction header{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 10%;
+    float: left;
+}
+
+
+#introduction header ul{
+    list-style-type: none;
+}
+
+
+
+#introduction header h1{
+    font-size: 2.5em; 
+}
+
+
+
+
+
+
+#introduction header h2{
+    color: #9a97fe;
+    margin-top: -10px;
+    margin-left: 30%;
+    font-size: 2em;
+}
+
+
+
+#introduction nav{
+    width: 40%;
+    margin-top: 170px;
+    float: right;
+}
+
+
+
+.nav li{
+    display: inline-block;
+    margin-right: 13%;
+    margin-top: -42px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #818181;
+}
+
+
+nav li:hover{
+    background-color: #9a60fe
+}
+
+nav li:active{
+    background-color: #9a07fe
+}
+
+
+
+.nav p{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.5em;
+    color: #cccccc;
+}
+
+#current_page{
+    background-color: #9a97fe;
+}
+
+#current_page p{
+    color: #ececec;
+}
+
+
+
+
+#projects{
+    background-image: url("../images/projects_bg.png");
+    background-size: cover;
+    width:1444px;
+    height: auto;
+    clear: both;
+}
+
+
+#projects h3{
+    text-align: center;
+    color: #fefefe;
+    font-size: 2em;
+}
+
+#projects ul{
+    list-style-type: none;
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: -10px;
+}
+
+#projects li{
+    display: inline-block;
+    background-color: #5f5f5f;
+    width: 20%;
+    height: 250px;
+    margin-top: 50px;
+    margin-right: 13%;
+    border-radius: 5px;
+}
+
+#projects a{
+    color: #2f2f2f;
+}
+
+#projects a:hover{
+    color: #3f3f3f;
+}
+
+#projects a:active{
+    color: #1f1f1f;
+}
+
+#projects label{
+    margin-top: 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+#projects img{
+    display: block;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+
+footer{
+    background-color: gray;
+    height: 25px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  
+    #introduction img{
+        margin-top: 20px;
+        margin-bottom: -300px;
+        clear: both;
+    }
+
+    #introduction header{
+        float: right;
+        margin-top: 50px;
+        width: 40%;
+    }
+    
+    #introduction header h1{
+    font-size: 1.5em;
+    margin-left: -50%;
+    }
+
+    #introduction header h2{
+        color: #9a97fe;
+        font-size: 1.5em;
+         margin-left: -20%;
+    }
+    
+    
+    #introduction nav{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    .nav li{
+        display: inline-block;
+        border-radius: 100px;
+        height: 100px;
+        width: 100px;
+        margin-right: 3%;
+        background-color: #818181;
+    }
+    
+    
+}
+
+
+
+
+

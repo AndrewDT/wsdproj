@@ -1,0 +1,49 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<title>Employee Directory</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/angular.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/dataService.js"></script>
+	</head>
+	<body ng-app="MyApp">
+		<h1>Employee Directory</h1>
+		<div ng-controller="DBcontroller">
+			<form>
+				<ul id="add_employee_list">
+					<li>
+						<label>Name</label>
+						<div><input class="new_employee_field" type="text" ng-model="employee.name" /></div>
+					</li>
+					<li>
+						<label>Street</label>
+						<div><input class="new_employee_field" type="text" ng-model="employee.street" /></div>
+					</li>
+					<li>
+						<label>City</label>
+						<div><input class="new_employee_field" type="text" ng-model="employee.city" /></div>
+					</li>
+					<li>
+						<label>State</label>
+						<div><input class="new_employee_field" type="text" ng-model="employee.state" /></div>		
+					</li>
+					<li>
+						<label>Zip Code</label>		
+						<div><input class="new_employee_field" type="text" ng-model="employee.zip" /></div>
+					</li>
+					<li>
+						<div><input id="form_submit" value="Add Employee"  type="submit" ng-click="addEmployee()" />
+					</li>
+				</ul>
+			</form>
+				<ul id="active_employees">
+					<li ng-repeat="employee in employeeArray track by $index" ng-class-odd="'odd'" ng-class-even="'even'">
+						<div class="employee_name_bar">{{ employee.name }}</div> <br /> <div class="employee_information">{{ employee.street }} <br /> {{ employee.city }}, {{ employee.state }}, {{ employee.zip }}
+						<div class="employee_delete_button"><button ng-click="removeEmployee(employee)">X</button></div></div>
+					</li>
+				</ul>
+		</div>
+	</body>
+</html>

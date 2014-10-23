@@ -1,0 +1,405 @@
+/*-----------------------Main Styles----------------*/
+
+
+body{
+	background-color:rgb(164,166,166);
+	font-family: "Myriad Pro";
+}
+
+header{
+	background-color: blue;
+	width: 90.25%;
+	margin-left: 4.85%;
+	margin-top: -8px;
+	margin-bottom: -7px;
+	height: 60px;
+}
+
+
+footer{
+	clear: both;
+	overflow: hidden;
+	width: 90.25%;
+	height: 50px;
+	background-color: rgb(49,1,117);
+	margin-left: 4.9%;
+	margin-bottom: -60px;
+	text-align: center;
+}
+
+footer p{
+	color: lightgrey;
+	width: 100%;
+}
+
+
+
+/*---------------------Video Styles----------------*/
+
+
+
+
+#videos_container{
+	background-color: rgb(112,163,255);
+	width: 90%;
+	height: 720px;
+	margin: 0 auto;
+	border-left: solid;
+	border-right: solid;
+	border-width: .15em;
+	border-color: rgb(100,100,100);
+	overflow: hidden;
+}
+
+
+li{
+	float: left;
+	list-style-type: none;
+	padding-left: 2.9%;
+}
+
+.video_header h1, p{
+	float: left;
+}
+
+.video_header p{
+	margin: 27px 0px -100px 20px;
+}
+
+#video_1{
+	margin-left: -6%;
+}
+
+#video_1 h1{
+	width: 250px;
+	margin-bottom: -5px;
+	margin-left: 1%;
+}
+
+#video_2 h1{
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+#video_3{
+	margin-left: 6%;
+}
+
+#video_3 h1{
+	width: 250px;
+	margin-bottom: -5px;
+}
+
+
+/*---------------------Video Information/Thumbnail Styles----------------*/
+
+
+#video_info_container{
+	overflow: hidden;
+	clear: both;
+}
+
+
+h3{
+	width: 250px;
+	margin: -2px 0px 0px -20px;
+	text-decoration: underline;
+}
+
+
+#video_info_container p{
+	width: 350px;
+	margin: -2px 0px 0px -20px;
+}
+
+#video_info_2{
+	margin-left: 3.2%;
+}
+
+#video_info_3{
+	margin-left: 3.5%;
+}
+
+#thumbnail_list_container{
+	clear: both;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	margin-top: -10px;
+}
+
+#thumbnail_list{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: -20px;
+	padding-bottom: 10px;
+	border-bottom: solid .15em rgba(0,0,0,.3);
+}
+
+#thumbnail_list li{
+	margin-left: -.3%;
+}
+
+#thumbnail_list img{
+	clear: both;
+	margin-left: -35%;
+	border-style: solid;
+	border-color: black;
+	border-width: .1em;
+}
+
+#thumbnail_list_2{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 25px;
+	padding-bottom: 10px;
+	border-bottom: solid .15em rgba(0,0,0,.3);
+}
+
+#thumbnail_list_2 li{
+	margin-left: -.3%;
+}
+
+#thumbnail_list_2 img{
+	margin-left: -35%;
+	border-style: solid;
+	border-color: black;
+	border-width: .1em;
+}
+
+
+#thumbnail_list_3{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 35px;
+	padding-bottom: 10px;
+	border-bottom: solid .15em rgba(0,0,0,.3);
+}
+
+#thumbnail_list_3 li{
+	margin-left: -.3%;
+}
+
+#thumbnail_list_3 img{
+	margin-left: -35%;
+	border-style: solid;
+	border-color: black;
+	border-width: .1em;
+}
+
+
+/*--------------------Downloads Styles----------------*/
+
+
+
+#downloads_container h3{
+	width: 250px;
+	margin: -2px 0px 15px -20px;
+	text-decoration: underline;
+}
+
+
+#downloads_header_2{
+	margin-left: 11%;
+}
+
+#downloads_header_3{
+	margin-left: 12%;
+}
+
+#download_buttons_container{
+	clear: both;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	margin-top: -10px;
+}
+
+#download_buttons_container a{
+	text-decoration: none;
+	color: black;
+}
+
+
+#download_list{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: -35px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#download_list li{
+	background: rgb(255,48,25); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,48,25,1) 0%, rgba(81,1,1,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(81,1,1,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#510101',GradientType=0 ); /* IE6-9 */
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 3px;
+	padding-right: 6px;
+	border-style: solid;
+	border-width: .1em;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+}
+
+#download_list_2{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 25px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#download_list_2 li{
+	background: rgb(255,48,25); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,48,25,1) 0%, rgba(81,1,1,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(81,1,1,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#510101',GradientType=0 ); /* IE6-9 */
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 3px;
+	padding-right: 6px;
+	text-align: center;
+	border-style: solid;
+	border-width: .1em;
+	width: 50px;
+	height: 20px;
+}
+
+
+#download_list_3{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 35px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#download_list_3 li{
+	background: rgb(255,48,25); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,48,25,1) 0%, rgba(81,1,1,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(81,1,1,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,48,25,1) 0%,rgba(81,1,1,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#510101',GradientType=0 ); /* IE6-9 */
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 3px;
+	padding-right: 6px;
+	border-style: solid;
+	border-width: .1em;
+	text-align: center;
+	width: 50px;
+	height: 20px;
+}
+
+
+/*--------------------Downloads Information Styles----------------*/
+
+
+
+
+#download_information_container{
+	clear: both;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	margin-top: -30px;
+}
+
+
+#download_info_list{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: -35px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-size: 8pt;
+}
+
+#download_info_list li{
+	margin-left: -.3%;
+	background-color: rgb(190,198,198);
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 5px;
+	padding-right: 6px;
+	border-style: solid;
+	border-width: .1em;
+	text-align: center;
+	width: 50px;
+	height: 105px;
+}
+
+#download_info_list_2{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 25px;
+	padding-bottom: 10px;
+	font-size: 8pt;
+}
+
+#download_info_list_2 li{
+	margin-left: -.3%;
+	background-color: rgb(190,198,198);
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 5px;
+	padding-right: 6px;
+	border-style: solid;
+	border-width: .1em;
+	text-align: center;
+	width: 50px;
+	height: 105px;
+}
+
+
+#download_info_list_3{
+	overflow: hidden;
+	clear: both;
+	width: 300px;
+	margin-left: 35px;
+	padding-bottom: 10px;
+	font-size: 8pt;
+}
+
+#download_info_list_3 li{
+	background-color: rgb(190,198,198);
+	margin-right: 5px;
+	margin-left: 3px;
+	padding-top: 5px;
+	padding-right: 6px;
+	border-style: solid;
+	border-width: .1em;
+	text-align: center;
+	width: 50px;
+	height: 105px;
+}
+
+
+
+
+
+
