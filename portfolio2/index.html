@@ -1,22 +1,26 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Andrew Tillett Portfolio</title>
-        <link rel="stylesheet" type="text.css" href="includes/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="includes/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
         
     </head>
+<!-- Javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="includes/bootstrap/js/bootstrap.min.js"></script>
     <body>
-        <section id="introduction" class="col-lg-10" class="col-md-8" class="col-sm-6">
+        <section id="introduction">
             <img src="images/intro_pose.png" />
-            <header class="col-lg-5" class="col-md-4" class="col-sm-3">
+            <header class="page-header">
                 <ul>
                     <li><h1>Andrew Tillett</h1></li>
                     <li><h2>Web Developer</h2></li>
                 </ul>
             </header>
-            <nav class="col-lg-5" class="col-md-4" class="col-sm-3">
+            <nav>
                 <ul class="nav">
                     <a href="index.html"><li id="current_page"><p>Home</p></li></a>
                     <a href="#"><li><p>About</p></li></a>
@@ -26,19 +30,171 @@
         </section>
         <section id="projects">
             <h3>Projects</h3>
-            <ul>
-                <li><label>Hulu Redesign</label><img src="images/hulu_thumbnail.jpg" /></li>
-                <a href="projects/yeskie/index.html" target="_blank"><li><label>Client Site</label><img src="images/yeskie_thumbnail.jpg" /></li></a>
-                <a href="projects/ironclad/index.html" target="_blank"><li><label>Ironclad Fitness</label><img src="images/ironclad_thumbnail.jpg" /></li></a>
-                <a href="projects/bodysymmetry/Index.html" target="_blank"><li><label>BodySymmetry</label><img src="images/bodysym_thumbnail.jpg" /></li></a>
-                <a href="projects/gamefinity/Index.html" target="_blank"><li><label>Gamefinity</label><img src="images/gamefinity_thumbnail.jpg" /></li></a>
-                <a href="projects/wkls/index.html" target="_blank"><li><label>WKLS</label><img src="images/wkls_thumbnail.jpg" /></li></a>
-                <li><label>World Surf Wires</label><img src="images/worldsurf_thumbnail.jpg" /></li>
-                <a href="projects/kineticjs/index.html" target="_blank"><li><label>Fun with KineticJS</label><img src="images/kineticjs_thumbnail.jpg" /></li></a>
-                <a href="projects/emberjs/index.html" target="_blank"><li><label>Ember App</label><img src="images/ember_app_thumbnail.jpg" /></li>
-                <a href="projects/angularjs/index.html" target="_blank"><li><label>Angular App</label><img src="images/angular_thumbnail.jpg" /></li></a>
-            </ul>
+            <span id="glyph" class="glyphicon glyphicon-pencil"></span>
+
+<!-- ****************************** Project One ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/hulu_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Hulu Xbox 360 App Re-Design Wires (School)</h4>
+                    <aside><a href="projects/hulu/hulu_wires.jpg" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>The idea was to take an interface in need of simplification, and re-design it to be more usable. Here I have taken away many options from the outdated Hulu Plus Xbox 360 App and simplified it for easier use.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+<!-- ****************************** Project Two ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/yeskie_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Yeskie's Underground Training Studio (Client)</h4>
+                    <aside><a href="projects/yeskie/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>I was commissioned by a rising local fitness studio to create a website to give them a professional online presence.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- ****************************** Project Three ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/ironclad_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Ironclad Fitness (School)</h4>
+                    <aside><a href="projects/ironclad/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>This site was created with the primary goal of becoming familiar with basic jquery animation effects.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+<!-- ****************************** Project Four ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/gamefinity_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Gamefinity (School)</h4>
+                    <aside><a href="projects/gamefinity/Index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>Video game site created purely for design purposes. Goal was to become more adept in design with simple page-to-page link functionality.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+<!-- ****************************** Project Five ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/bodysym_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>BodySymmetry (School)</h4>
+                    <aside><a href="projects/bodysymmetry/Index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>Simple site to demonstrate the effects of responsive design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+<!-- ****************************** Project Six ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/ember_app_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Simple EmberJS Application (School)</h4>
+                    <aside><a href="projects/emberjs/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>EmberJS address book application to demonstrate basic EmberJS use.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+<!-- ****************************** Project Seven ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/angular_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Simple AngularJS Application (School)</h4>
+                    <aside><a href="projects/angularjs/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>AngularJS employee directory application to demonstrate basic AngularJS use.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+<!-- ****************************** Project Eight ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/worldsurf_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>Worldsurf Wireframes (School)</h4>
+                    <aside><a href="projects/worldsurf/worldsurf_wires.jpg" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>Wireframes for a ficititious company to practice form element design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+<!-- ****************************** Project Nine ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/kineticjs_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>KineticJS Demo (School)</h4>
+                    <aside><a href="projects/kineticjs/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>Fun use of KineticJS to demonstrate its use.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+<!-- ****************************** Project Ten ****************************************** -->            
+            
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/wkls_thumbnail.jpg" alt="...">
+                  <div class="caption">
+                    <h4>WKLS Video Site (School)</h4>
+                    <aside><a href="projects/wkls/index.html" target="_blank" class="btn btn-primary" role="button">View</a></aside>
+                    <p>Created to display different video formats and information about them as well as download each one.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
         </section>
-        <footer>Hello there</footer>
+        <footer>
+            <p>&copy; Andrew Tillett 2014</p>
+        </footer>
     </body>
 </html>
