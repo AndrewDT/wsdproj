@@ -1,0 +1,1377 @@
+html { 
+  background: url(../images/site_bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.content_container{
+    background-color: #fff;
+    height: auto;
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+footer{
+    background-color: #2F2E2E;
+    margin-bottom: 0px;
+    height: 56px;
+    width: 101.2%;
+    margin: -10px 0 -10px -.6%;
+    overflow: hidden;
+}
+
+
+footer img{
+    float: left;
+    margin-top: 12px;
+    margin-left: 1%;
+}
+
+footer p{
+    float: right;
+    color: #777;
+    font-family: "Myriad Pro";
+    font-size: 1.250em;
+    margin-right: 1%;
+}
+
+
+.current_home{
+    color: #ff2e00;
+    font-weight: bold;
+}
+
+/********************************Header Styles*******************************/
+header{
+    background-color: #2F2E2E;
+    width: 101.2%;
+    height: 52px;
+    margin: -10px 0 0 -.6%;
+    overflow: hidden;
+}
+
+header img{
+    float: left;
+    margin-left: 1%;
+}
+
+
+nav ul{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: "Arial";
+    font-size: 1.3em;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 4.6%;
+}
+
+
+nav a{
+    color: black;
+}
+
+
+
+
+/********************************Login Styles*******************************/
+aside ul {
+  margin: -44px 0 0 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #515151;
+  height: 52px;
+}
+
+aside li {
+  float: left;          
+}
+
+aside #login {
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 0 0 #fff;  
+}
+
+
+aside #login-trigger{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 52px;
+  width: 200px;
+  line-height: 25px;
+
+  padding: 0 8px;
+  text-align:center;
+  font-family: "Myriad Pro";
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+aside #login-trigger p{
+    margin-top: 15px;
+}
+
+aside #login-trigger {
+  border-radius: 3px 0 0 3px;
+}
+
+aside #login-trigger:hover,
+nav #login .active{
+  opacity: .6;
+}
+
+aside #login-content {
+  display: none;
+  position: fixed;
+  top: 52px;
+  right: 0;
+  z-index: 999;    
+  background: #515151;
+  background-image: linear-gradient(top, #fff, #eee);  
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+aside li #login-content {
+  right: 100;
+  width: 187px;  
+}
+
+/*--------------------*/
+
+#login #inputs{
+    border: none;
+}
+
+#inputs label{
+    font-family: "Myriad Pro";
+    font-size: 1.2em;
+    color: white;
+    position: relative;
+    right: 80px;
+}
+
+#inputs input {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 10px 0;
+  width: 145px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+  border: none;
+  width: 160px;
+}
+
+#login #submit {    
+  background-color: #f23005;
+  background-image: linear-gradient(top, #e97171, #d14545);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #7e1515;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+
+#login #submit:hover,
+#login #submit:focus {    
+  background-color: #ff5029 ;
+  background-image: linear-gradient(top, #d14545, #e97171);
+} 
+
+#login #submit:active {   
+  outline: none;
+  background-color: #A60303;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: right;
+  line-height: 20px;
+}
+
+#actions label {
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  font-size: .9em;
+  position: relative;
+  right: 5px;
+  top: 5px;
+  color: white;
+}
+
+#actions label a {
+    color: white;
+}
+
+
+#actions label a:hover {
+    color: #aaa;
+}
+
+
+/********************************News Styles*******************************/
+.news{
+   height: auto; 
+}
+
+.news h3{
+    font-size: 1.4em;
+    font-family: "Myriad Pro";
+    color: #a60303;
+    width: 7%;
+    margin-left: 4.5%;
+    margin-bottom: -28px;
+}
+
+.news ul{
+    list-style-type: none;
+    font-family: "Myriad Pro";
+    float: left;
+    width: 33%;
+    height: auto;
+    margin-right: -7%;
+}
+
+.news li{
+    height: 150px;
+    width: 150px;
+}
+
+.news a{
+    text-decoration: none;
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin-top: 23px;
+    margin-bottom: 65px;
+}
+
+.news label{
+    display: block;
+    background-color: #f23005;
+    height: 20px;
+    width: 95%;
+    position: relative;
+    top: -180px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.news div{
+    display: block;
+    background-color: #f2f2f2;
+    height: 69px;
+    width: 120%;
+    position: relative;
+    top: -92px;
+}
+
+
+.news h4{
+    color: #3f3f3f;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-decoration: underline;
+    font-size: .8em;
+}
+
+.news p{
+    color: #8c8c8c;
+    margin-top: -15px;
+    padding-left: 5px;
+    font-size: .7em;
+}
+
+/**----------------------------------**/
+
+.home_pages_advertisement{
+    background-color: red;
+    float: right;
+    margin: 40px 4.5% 0 0;
+}
+
+
+
+/********************************Sign-Up Styles*******************************/
+
+
+#sign_up{
+    font-family: "Myriad Pro";
+    height: auto;
+}
+
+#sign_up h1{
+    width: 17%;
+    margin: 100px auto 0;
+    font-size: 2.5em;
+}
+
+#sign_up h2{
+    color: #f23005;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#sign_up h2 img{
+    margin-bottom: -5px;
+}
+
+
+#sign_up h3{
+    color: #a60303;
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#sign_up h3 img{
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+
+/**----------------------------------**/
+
+
+#sign_up{
+    height: 705px;
+}
+
+#sign_up form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+#sign_up form label{
+    color: #3f3f3f;
+    font-size: 1.2em;
+    margin-left: 13%;
+}
+
+
+#sign_up form .new_user_input{
+    position:relative;
+    top: 40px;
+    right: 81px;
+    height: 30px;
+    width: 200px;
+    border: 10px solid #afafaf;
+    border-radius: 2px;
+    outline: none;
+}
+
+
+#sign_up form .new_user_input:focus{
+    box-shadow: 0 0 0 1px #000 inset;
+}
+
+
+#new_user_submit{
+    background-color: #f23005;
+    position: relative;
+    top: 100px;
+    left: 333px;
+    border: 1px solid #7e1515;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    outline: none;
+}
+
+#new_user_submit:hover{
+    background-color: #ff5029;
+}
+
+#new_user_submit:active{
+    background-color: #A60303;
+}
+
+
+
+
+/********************************Article Styles*******************************/
+
+
+#article{
+    font-family: "Myriad Pro";
+    height: auto;
+}
+
+#article h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#article h2{
+    text-align: center;
+    color: #f23005;
+    margin-bottom: 80px;
+}
+
+
+#article p{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 22px;
+    color: #8c8c8c;
+}
+
+
+#article img{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+}
+
+
+#article label{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5c5c5c;
+    font-size: .9em;
+    font-weight: bold;
+
+}
+
+
+/********************************Review Styles*******************************/
+
+
+
+
+#review{
+    font-family: "Myriad Pro";
+    height: auto;
+}
+
+#review h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#review h2{
+    text-align: center;
+    color: #f23005;
+    margin-bottom: 80px;
+}
+
+#review h3{
+    margin-top: 40px;
+    margin-left: 2.5%;
+    color: #a60303;
+    font-size: 1.625em;
+    margin-bottom: 10px;
+}
+
+#review p{
+    width: 70%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 22px;
+    color: #8c8c8c;
+}
+
+
+#review img{
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+}
+
+
+#review label{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5c5c5c;
+    font-size: .9em;
+    font-weight: bold;
+
+}
+
+
+
+/**----------------------------------**/
+
+.review_box_gameplay{
+    background-color: #fff;
+    width: 220px;
+    height: 275px;
+    position:absolute;
+    top: 320px;
+    left: 975px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+}
+
+
+.review_box_gameplay h4{
+    color: white;
+    background-color: #f23005;
+    margin-top: 0px;
+    padding-top: 3px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Kannada Sangam MN";
+    font-weight: 100;
+}
+
+.review_box_gameplay span{
+    color: #fb7f63;
+}
+
+
+.pro_con{
+    background-color: #fff;
+    height: 150px;
+    margin-top: -43px;
+    list-style-type:disc;
+}
+
+.pro_con li{
+    margin-top: 16px;
+    margin-left: 13%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.pro{
+    color: #22902f;
+}
+
+
+.con{
+    color: #ac1414;
+}
+
+
+/**----------------------------------**/
+
+
+
+
+.review_box_story{
+    background-color: #fff;
+    width: 220px;
+    height: 275px;
+    position:absolute;
+    top: 1060px;
+    left: 975px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+}
+
+
+.review_box_story h4{
+    color: white;
+    background-color: #f23005;
+    margin-top: 0px;
+    padding-top: 3px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Kannada Sangam MN";
+    font-weight: 100;
+}
+
+.review_box_story span{
+    color: #fb7f63;
+}
+
+
+
+/**----------------------------------**/
+
+
+
+
+.review_box_visuals{
+    background-color: #fff;
+    width: 220px;
+    height: 210px;
+    position:absolute;
+    top: 1780px;
+    left: 975px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+}
+
+
+.review_box_visuals h4{
+    color: white;
+    background-color: #f23005;
+    margin-top: 0px;
+    padding-top: 3px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Kannada Sangam MN";
+    font-weight: 100;
+}
+
+.review_box_visuals span{
+    color: #fb7f63;
+}
+
+
+
+
+/**----------------------------------**/
+
+
+
+
+.overall_box{
+    background-color: #fff;
+    width: 220px;
+    height: 200px;
+    position:absolute;
+    top: 2420px;
+    left: 975px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(48,48,48,0.75);
+}
+
+
+.overall_box h4{
+    color: white;
+    background-color: #f23005;
+    margin-top: 0px;
+    padding-top: 3px;
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Kannada Sangam MN";
+    font-weight: 100;
+}
+
+.overall_box span{
+    color: #fb7f63;
+}
+
+
+
+.grade{
+    background-color: #fff;
+    height: 150px;
+    width: 100%;
+    margin-top: -43px;
+    list-style-type:none;
+}
+
+.grade li{
+    margin-top: 25px;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #22902f;
+}
+
+
+#review .overall{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/*--------------------------------------START OF MEDIA QUERIES--------------------------*/
+
+/*Standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+
+    .content_container{
+        background-color: #fff;
+        height: auto;
+        width: 520px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    footer{
+        background-color: #2F2E2E;
+        margin-bottom: 0px;
+        height: 56px;
+        width: 101.2%;
+        margin: -10px 0 -10px -.6%;
+        overflow: hidden;
+    }
+
+
+    footer img{
+        float: left;
+        margin-top: 12px;
+        margin-left: 1%;
+    }
+
+    footer p{
+        float: right;
+        color: #777;
+        font-family: "Myriad Pro";
+        font-size: 1.250em;
+        margin-right: 1%;
+    }
+
+    /********************************Header Styles*******************************/
+    
+    header img{
+        float: left;
+        margin-top: 10px;
+        margin-left: 1%;
+        width: 17%;
+    }
+
+
+    nav ul{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-family: "Arial";
+        font-size: .9em;
+    }
+
+    nav li{
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+
+    /********************************Login Styles*******************************/
+    
+    aside ul {
+      margin: -35px 0% 0 0;
+      width: 15%;
+      padding: 0;
+      list-style: none;
+      position: relative;
+      float: right;
+      background: #515151;
+      height: 52px;
+    }
+    
+    
+    aside #login-trigger{
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      height: 52px;
+      width: 170px;
+      line-height: 25px;
+      padding: 0 0;
+      text-align:center;
+      font-family: "Myriad Pro";
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #fff;
+    }
+
+
+    aside #login-trigger p{
+        margin-top: 15px;
+        margin-left: -25%;
+    }
+
+    aside #login-trigger {
+      border-radius: 3px 0 0 3px;
+    }
+
+
+    
+    /********************************News Styles*******************************/
+
+
+    .news ul{
+        list-style-type: none;
+        font-family: "Myriad Pro";
+        float: left;
+        width: 33%;
+        height: auto;
+        margin-left: -3%;
+        margin-right: 10%;
+    }
+
+    .news h3{
+        font-size: 1.4em;
+        font-family: "Myriad Pro";
+        color: #a60303;
+        width: 7%;
+        margin-left: 4.5%;
+        margin-bottom: -28px;
+    }
+
+
+    .news li{
+        height: 220px;
+        width: 220px;
+    }
+    
+    .news img{
+        height: 220px;
+        width: 220px;
+    }
+
+    .news a{
+        text-decoration: none;
+        display: block;
+        height: 220px;
+        width: 220px;
+        margin-top: 23px;
+        margin-bottom: 65px;
+    }
+
+    .news label{
+        display: block;
+        background-color: #f23005;
+        height: 20px;
+        width: 65%;
+        position: relative;
+        top: -180px;
+        color: white;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .news div{
+        display: block;
+        background-color: #f2f2f2;
+        height: 69px;
+        width: 80%;
+        position: relative;
+        top: -92px;
+    }
+
+    /**----------------------------------**/
+
+    .home_pages_advertisement{
+        display: none;
+    }
+
+    
+    
+}
+
+
+/* Mobile Landscape size to Tablet portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+
+        .content_container{
+            background-color: #fff;
+            height: auto;
+            width: 470px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        footer{
+            background-color: #2F2E2E;
+            margin-bottom: 0px;
+            height: 56px;
+            width: 103%;
+            margin: -10px 0 -10px 0;
+            overflow: hidden;
+        }
+
+
+        footer img{
+            float: left;
+            margin-top: 12px;
+            margin-left: 1%;
+        }
+
+        footer p{
+            float: right;
+            color: #777;
+            font-family: "Myriad Pro";
+            font-size: 1.250em;
+            margin-right: 4%;
+        }
+
+        /********************************Header Styles*******************************/
+
+        header{
+            height: 365px;
+            width: 102%;
+        }
+    
+        header img{
+            float: left;
+            margin-top: 10px;
+            margin-left: 1%;
+            width: 130px;
+        }
+
+
+        nav ul{
+            position: relative;
+            top: 48px;
+            width: 100%;
+            height: 300px;
+            margin: 0 auto;
+            font-family: "Arial";
+            font-size: .7em;
+        }
+
+        nav li{
+            text-align: center;
+            display: block;
+            padding-top: 10px;
+            margin: 0 auto;
+            margin-top: 5px;
+            width: 25%;
+            height: 38px;
+            font-size: 2em;
+        }
+
+
+        nav ul a{
+            width: 120%;
+            background: #595959; /* Old browsers */
+            background: -moz-linear-gradient(top, #595959 0%, #2d2d2d 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* IE10+ */
+            background: linear-gradient(to bottom, #595959 0%,#2d2d2d 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#2d2d2d',GradientType=0 ); /* IE6-9 */
+            display: block;
+            margin-left: -100px;
+            color: white;
+            text-decoration: none;
+        }
+    
+        nav ul a:hover,
+        nav ul a:focus {    
+          background-color: #ff5029 ;
+          background-image: linear-gradient(top, #d14545, #e97171);
+        } 
+
+        nav ul a:active {   
+          outline: none;
+          background-color: #A60303;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+        }
+
+    
+    
+    
+    
+    
+    
+    
+        /********************************Login Styles*******************************/
+
+        aside ul {
+          margin: -305px 0px 0 0;
+          width: 320px;
+          padding: 0;
+          list-style: none;
+          position: relative;
+          float: right;
+          background: #515151;
+          height: 52px;
+        }
+
+
+        aside #login-trigger{
+          display: inline-block;
+          *display: inline;
+          *zoom: 1;
+          height: 52px;
+          width: 320px;
+          line-height: 25px;
+          padding: 0 0;
+          text-align:center;
+          font-family: "Myriad Pro";
+          font-size: 1.5em;
+          text-decoration: none;
+          color: #fff;
+        }
+
+
+        aside #login-trigger p{
+            margin-top: 15px;
+        }
+
+        aside #login-trigger {
+          border-radius: 3px 0 0 3px;
+        }
+
+
+
+        /********************************News Styles*******************************/
+
+
+        .news ul{
+            list-style-type: none;
+            font-family: "Myriad Pro";
+            float: left;
+            width: 33%;
+            height: auto;
+            margin-left: -3%;
+            margin-right: 10%;
+        }
+
+        .news h3{
+            font-size: 1.4em;
+            font-family: "Myriad Pro";
+            color: #a60303;
+            width: 7%;
+            margin-left: 4.5%;
+            margin-bottom: -28px;
+        }
+
+
+        .news li{
+            height: 190px;
+            width: 190px;
+        }
+
+        .news img{
+            height: 190px;
+            width: 190px;
+        }
+
+        .news a{
+            text-decoration: none;
+            display: block;
+            height: 190px;
+            width: 190px;
+            margin-top: 23px;
+            margin-bottom: 65px;
+        }
+
+        .news label{
+            display: block;
+            background-color: #f23005;
+            height: 20px;
+            width: 65%;
+            position: relative;
+            top: -180px;
+            color: white;
+            padding-top: 5px;
+            padding-left: 10px;
+        }
+
+        .news div{
+            display: block;
+            background-color: #f2f2f2;
+            height: 69px;
+            width: 80%;
+            position: relative;
+            top: -92px;
+        }
+
+        /**----------------------------------**/
+
+        .home_pages_advertisement{
+            display: none;
+        }
+
+
+
+    
+}
+
+
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+            .content_container{
+                background-color: #fff;
+                height: auto;
+                width: 370px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+
+            footer{
+                background-color: #2F2E2E;
+                margin-bottom: 0px;
+                height: 56px;
+                width: 103%;
+                margin: -10px 0 -10px 0;
+                overflow: hidden;
+            }
+
+
+            footer img{
+                float: left;
+                margin-top: 12px;
+                margin-left: 1%;
+            }
+
+            footer p{
+                float: right;
+                color: #777;
+                font-family: "Myriad Pro";
+                font-size: 1.250em;
+                margin-right: 4%;
+            }
+
+            /********************************Header Styles*******************************/
+
+            header{
+                height: 365px;
+                width: 102%;
+            }
+
+            header img{
+                float: left;
+                margin-top: 10px;
+                margin-left: 1%;
+                width: 130px;
+            }
+
+
+            nav ul{
+                position: relative;
+                top: 48px;
+                width: 100%;
+                height: 300px;
+                margin: 0 auto;
+                font-family: "Arial";
+                font-size: .7em;
+            }
+
+            nav li{
+                text-align: right;
+                display: block;
+                padding-top: 10px;
+                margin: 0 auto;
+                margin-top: 5px;
+                width: 29.5%;
+                height: 38px;
+                font-size: 2em;
+            }
+
+
+            nav ul a{
+                width: 120%;
+                background: #595959; /* Old browsers */
+                background: -moz-linear-gradient(top, #595959 0%, #2d2d2d 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top, #595959 0%,#2d2d2d 100%); /* IE10+ */
+                background: linear-gradient(to bottom, #595959 0%,#2d2d2d 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#2d2d2d',GradientType=0 ); /* IE6-9 */
+                display: block;
+                margin-left: -100px;
+                color: white;
+                text-decoration: none;
+            }
+
+            nav ul a:hover,
+            nav ul a:focus {    
+              background-color: #ff5029 ;
+              background-image: linear-gradient(top, #d14545, #e97171);
+            } 
+
+            nav ul a:active {   
+              outline: none;
+              background-color: #A60303;
+              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+            }
+
+
+
+
+
+
+
+
+            /********************************Login Styles*******************************/
+
+            aside ul {
+              margin: -305px 0px 0 0;
+              width: 210px;
+              padding: 0;
+              list-style: none;
+              position: relative;
+              float: right;
+              background: #515151;
+              height: 52px;
+            }
+
+
+            aside #login-trigger{
+              display: inline-block;
+              *display: inline;
+              *zoom: 1;
+              height: 52px;
+              width: 210px;
+              line-height: 25px;
+              padding: 0 0;
+              text-align:center;
+              font-family: "Myriad Pro";
+              font-size: 1.5em;
+              text-decoration: none;
+              color: #fff;
+            }
+
+
+            aside #login-trigger p{
+                margin-top: 15px;
+            }
+
+            aside #login-trigger {
+              border-radius: 3px 0 0 3px;
+            }
+
+
+
+            /********************************News Styles*******************************/
+
+
+            .news ul{
+                list-style-type: none;
+                font-family: "Myriad Pro";
+                float: left;
+                width: 33%;
+                height: auto;
+                margin-left: 8%;
+                margin-right: 10%;
+                margin-top: -38px;
+            }
+
+            .news h3{
+                font-size: 1.4em;
+                font-family: "Myriad Pro";
+                color: #a60303;
+                width: 7%;
+                margin-left: 4.5%;
+                margin-bottom: 78px;
+            }
+
+
+            .news li{
+                height: 230px;
+                width: 230px;
+                margin-top: -50px;
+            }
+
+            .news img{
+                height: 230px;
+                width: 230px;
+            }
+
+            .news a{
+                text-decoration: none;
+                display: block;
+                height: 230px;
+                width: 230px;
+                margin-top: 23px;
+                margin-bottom: 65px;
+            }
+
+            .news label{
+                display: block;
+                background-color: #f23005;
+                height: 20px;
+                width: 65%;
+                position: relative;
+                top: -180px;
+                color: white;
+                padding-top: 5px;
+                padding-left: 10px;
+            }
+
+            .news div{
+                display: block;
+                background-color: #f2f2f2;
+                height: 69px;
+                width: 80%;
+                position: relative;
+                top: -92px;
+            }
+
+            /**----------------------------------**/
+
+            .home_pages_advertisement{
+                display: none;
+            }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+

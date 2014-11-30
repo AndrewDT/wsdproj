@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <head>
+        <title>VGStand</title>
+        <script src="includes/jquery-1.11.1.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="includes/jquery.bxslider.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/main.js"></script>
+    </head>
+    <header>
+        <a href="index.html"><img src="images/site_logo.png" alt="VGStand Logo" /></a>
+        <nav>
+            <ul>
+                <a href="xbox_one_home.html"><li class="current_home">Xbox One</li></a>
+                <a href="xbox_360_home.html"><li>Xbox 360</li></a>
+                <a href="playstation_4.html"><li>Playstation 4</li></a>
+                <a href="playstation_3.html"><li>Playstation 3</li></a>
+                <a href="wii_u.html"><li>Wii U</li></a>
+                <a href="3ds.html"><li>3DS</li></a>
+            </ul>
+        </nav>
+        <aside>
+              <ul>
+                <li id="login">
+                  <a id="login-trigger" href="#">
+                    <p>Log in   <span>&#x25BC;</span></p> 
+                  </a>
+                  <div id="login-content">
+                    <form method="POST">
+                      <fieldset id="inputs">
+                        <label>Username</label>
+                        <input id="username" type="text" name="Username" placeholder="Your Username" required>   
+                        <label>Password</label>
+                        <input id="password" type="password" name="Password" placeholder="Password" required>
+                      </fieldset>
+                      <fieldset id="actions">
+                        <input type="submit" id="submit" value="Log in">
+                        <label>Not a member? <a href="sign_up.html">Sign Up!</a></label>
+                      </fieldset>
+                    </form>
+                  </div>                     
+                </li>
+              </ul>
+        </aside>
+    </header>
+    <body>
+        <div class="content_container">
+            <ul class="bxslider">
+              <li><img src="images/dai.jpg" title="<strong><u>Dragon Age Inquisition Preview:</strong></u> Bioware's new addition into the Dragon Age world recently landed. Here's what we think."/></li>
+              <li><img src="images/dai.jpg" title="Funky roots" /></li>
+              <li><img src="images/dai.jpg" title="Funky roots" /></li>
+            </ul>
+            <div class="news">
+                <h3>News</h3>
+                <ul>
+                    <a href="evolve_preview.html">
+                        <li>
+                            <img src="images/evolve_thumbnail.jpg" />
+                            <div>
+                                <h4>Evolve Big Alpha:</h4>
+                                <p>Did you play Evolve's Big Alpha, you should have.</p>
+                            </div>
+                            <label>Preview</label>
+                        </li>
+                    </a>
+                    <a href="article_template.html">
+                        <li>
+                            <img src="images/halo_mcc_thumbnail.jpg" />
+                            <div>
+                                <h4>Let's Play Halo:</h4>
+                                <p>Campaign, skulls, multiplayer, and many many deaths..</p>
+                            </div>
+                            <label>Video</label>
+                        </li>
+                    </a>
+                    <a href="article_template.html">
+                        <li>
+                            <img src="images/smash_bros_thumbnail.jpg" />
+                            <div>
+                                <h4>Smash Insanity:</h4>
+                                <p>See the crazy 8-player Smash for Wii U matches in action.</p>
+                            </div>
+                            <label>Preview</label>
+                        </li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="article_template.html">
+                        <li>
+                            <img src="images/pokemon_oras_thumbnail.jpg" />
+                            <div>
+                                <h4>Legendary Guide:</h4>
+                                <p>Here's how you can catch every legendary Hoenn has this time around.</p>
+                            </div>
+                            <label>Walkthrough</label>
+                        </li>
+                    </a>
+                    <a href="sunset_overdrive_review.html">
+                        <li>
+                            <img src="images/sunset_overdrive_thumbnail.jpg" />
+                            <div>
+                                <h4>Sunset Overdrive:</h4>
+                                <p>Have you become a part of the AWESOMEPOCALYPSE yet?!</p>
+                            </div>
+                            <label>Review</label>
+                        </li>
+                    </a>
+                    <a href="article_template.html">
+                        <li>
+                            <img src="images/shadow_of_mordor_thumbnail.jpg" />
+                            <div>
+                                <h4>Shadow of Mordor:</h4>
+                                <p>Check out the absolutely stunning assassinations Mordor has to offer.</p>
+                            </div>
+                            <label>Video</label>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <aside class="home_pages_advertisement">
+                <img src="images/ac_unity_ad.jpg" />
+            </aside>
+        </div>
+        <footer>
+            <img src="images/twitter_icon.jpg" /><img src="images/facebook_icon.jpg" /><p>&copy; VGStand 2014</p>
+        </footer>
+    </body>
+</html>

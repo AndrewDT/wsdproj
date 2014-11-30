@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <head>
+        <title>VGStand</title>
+        <script src="includes/jquery-1.11.1.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="includes/jquery.bxslider.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/main.js"></script>
+    </head>
+    <header>
+        <a href="index.html"><img src="images/site_logo.png" alt="VGStand Logo" /></a>
+        <nav>
+            <ul>
+                <a href="xbox__one_home.html"><li>Xbox One</li></a>
+                <a href="xbox_360_home.html"><li>Xbox 360</li></a>
+                <a href="playstation_4.html"><li>Playstation 4</li></a>
+                <a href="playstation_3.html"><li>Playstation 3</li></a>
+                <a href="wii_u.html"><li>Wii U</li></a>
+                <a href="3ds.html"><li>3DS</li></a>
+            </ul>
+        </nav>
+        <aside>
+              <ul>
+                <li id="login">
+                  <a id="login-trigger" href="#">
+                    <p>Log in   <span>&#x25BC;</span></p> 
+                  </a>
+                  <div id="login-content">
+                    <form method="POST">
+                      <fieldset id="inputs">
+                        <label>Username</label>
+                        <input id="username" type="text" name="Username" placeholder="Your Username" required>   
+                        <label>Password</label>
+                        <input id="password" type="password" name="Password" placeholder="Password" required>
+                      </fieldset>
+                      <fieldset id="actions">
+                        <input type="submit" id="submit" value="Log in">
+                        <label>Not a member? <a href="sign_up.html">Sign Up!</a></label>
+                      </fieldset>
+                    </form>
+                  </div>                     
+                </li>
+              </ul>
+        </aside>
+    </header>
+    <body>
+        <div class="content_container" id="sign_up">
+            <h1>Sign-Up</h1>
+            <h2>Join the<img src="images/site_logo.png" /> Community!</h2>
+            <h3><img src="images/community_icon.png"> Gain access to members only Community Events!</h3>
+            <h3><img src="images/heart_icon.png"> Love a game? Members can submit their own reviews!</h3>
+            <form method="POST">
+                <label>Username</label>
+                <input class="new_user_input" type="text" name="New_Username" placeholder="Your Username" required>
+                <label>Password</label>
+                <input class="new_user_input" type="password" name="New_Password" placeholder="Password" required>
+                <input id="new_user_submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <footer>
+            <img src="images/twitter_icon.jpg" /><img src="images/facebook_icon.jpg" /><p>&copy; VGStand 2014</p>
+        </footer>
+    </body>
+</html>
