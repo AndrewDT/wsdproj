@@ -915,6 +915,148 @@ aside li #login-content {
     }
 
     
+/********************************Sign-Up Styles*******************************/
+    
+    
+    
+    #sign_up h1{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    #sign_up h2{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    #sign_up h3{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    */----------------------------------*/
+
+    #sign_up form{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+    #sign_up form label{
+        color: #3f3f3f;
+        font-size: 1.2em;
+        margin-left: 40%;
+        margin-right: 10%;
+    }
+
+
+    #sign_up form .new_user_input{
+        position:relative;
+        top: -20px;
+        left: 140px;
+        height: 30px;
+        width: 200px;
+        margin-top: 30px;
+        border: 10px solid #afafaf;
+        border-radius: 2px;
+        outline: none;
+    }
+
+
+    #sign_up form .new_user_input:focus{
+        box-shadow: 0 0 0 1px #000 inset;
+    }
+
+
+    #new_user_submit{
+        background-color: #f23005;
+        position: relative;
+        top: 100px;
+        left: -70px;
+        border: 1px solid #7e1515;
+        height: 60px;
+        width: 200px;
+        border-radius: 5px;
+        font-family: "Myriad Pro";
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 10px;
+        outline: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+/********************************Article Styles*******************************/
+    
+    
+    
+    #article img{
+        max-width: 90%;
+    }
+
+
+    #article label{
+        max-width: 90%;
+    }
+    
+    
+    
+/********************************Review Styles*******************************/
+    
+    #review img{
+        max-width: 90%;
+    }
+
+    #review label{
+        max-width: 90%;
+    }
+
+
+    #review h3{
+        margin-top: 40px;
+        margin-left: 2.5%;
+        color: #a60303;
+        font-size: 1.625em;
+        margin-bottom: 10px;
+    }
+
+    #review p{
+        width: 90%;
+        margin-left: 6%;
+        margin-bottom: 20px;
+        font-size: 1em;
+        line-height: 22px;
+        color: #8c8c8c;
+    }
+
+
+    .review_box_gameplay{
+        display: none;
+    }
+
+
+    .review_box_story{
+        display: none;
+    }
+
+
+    .review_box_visuals{
+        display: none;
+    }
+
+
+    .overall_box{
+        display: none;
+    }
     
 }
 
@@ -1137,9 +1279,147 @@ aside li #login-content {
             display: none;
         }
 
-
-
     
+    
+/********************************Sign-Up Styles*******************************/
+    
+    
+    
+        #sign_up h1{
+            width: 100%;
+            text-align: center;
+        }
+
+
+        #sign_up h2{
+            width: 100%;
+            text-align: center;
+        }
+
+
+        #sign_up h3{
+            width: 100%;
+            text-align: center;
+        }
+
+
+        */----------------------------------*/
+
+        #sign_up form{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+
+        #sign_up form label{
+            color: #3f3f3f;
+            font-size: 1.2em;
+            margin-left: 40%;
+            margin-right: 10%;
+        }
+
+
+        #sign_up form .new_user_input{
+            position:relative;
+            top: -20px;
+            left: 120px;
+            height: 30px;
+            width: 200px;
+            margin-top: 30px;
+            border: 10px solid #afafaf;
+            border-radius: 2px;
+            outline: none;
+        }
+
+
+        #sign_up form .new_user_input:focus{
+            box-shadow: 0 0 0 1px #000 inset;
+        }
+
+
+        #new_user_submit{
+            background-color: #f23005;
+            position: relative;
+            top: 100px;
+            left: -95px;
+            border: 1px solid #7e1515;
+            height: 60px;
+            width: 200px;
+            border-radius: 5px;
+            font-family: "Myriad Pro";
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            padding-top: 10px;
+            outline: none;
+        }
+
+
+/********************************Article Styles*******************************/
+    
+    
+    
+            #article img{
+                max-width: 90%;
+            }
+    
+            
+            #article label{
+                max-width: 90%;
+            }
+    
+    
+    
+    
+/********************************Review Styles*******************************/
+    
+            #review img{
+                max-width: 90%;
+            }
+    
+    
+            #review label{
+                max-width: 90%;
+            }
+    
+    
+            #review h3{
+                margin-top: 40px;
+                margin-left: 2.5%;
+                color: #a60303;
+                font-size: 1.625em;
+                margin-bottom: 10px;
+            }
+
+            #review p{
+                width: 90%;
+                margin-left: 6%;
+                margin-bottom: 20px;
+                font-size: 1em;
+                line-height: 22px;
+                color: #8c8c8c;
+            }
+    
+    
+            .review_box_gameplay{
+                display: none;
+            }
+    
+    
+            .review_box_story{
+                display: none;
+            }
+    
+    
+            .review_box_visuals{
+                display: none;
+            }
+    
+    
+            .overall_box{
+                display: none;
+            }
 }
 
 
@@ -1362,7 +1642,148 @@ aside li #login-content {
                 display: none;
             }
 
+    
+    
 
+    
+    
+/********************************Sign-Up Styles*******************************/
+    
+    
+    
+            #sign_up h1{
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+
+            #sign_up h2{
+                width: 100%;
+                text-align: center;
+            }
+
+
+            #sign_up h3{
+                width: 100%;
+                text-align: center;
+            }
+
+
+            */----------------------------------*/
+
+            #sign_up form{
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+
+
+            #sign_up form label{
+                color: #3f3f3f;
+                font-size: 1.2em;
+                margin-left: 35%;
+                margin-right: 10%;
+            }
+
+
+            #sign_up form .new_user_input{
+                position:relative;
+                top: -20px;
+                left: 40px;
+                height: 30px;
+                width: 200px;
+                margin-top: 30px;
+                border: 10px solid #afafaf;
+                border-radius: 2px;
+                outline: none;
+            }
+
+
+            #sign_up form .new_user_input:focus{
+                box-shadow: 0 0 0 1px #000 inset;
+            }
+
+
+            #new_user_submit{
+                background-color: #f23005;
+                position: relative;
+                top: 20px;
+                left: 50px;
+                border: 1px solid #7e1515;
+                height: 60px;
+                width: 200px;
+                border-radius: 5px;
+                font-family: "Myriad Pro";
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+                padding-top: 10px;
+                outline: none;
+            }
+
+    
+
+/********************************Article Styles*******************************/
+    
+            #article img{
+                max-width: 90%;
+            }
+    
+    
+            #article label{
+                max-width: 90%;
+            }
+    
+    
+    
+/********************************Review Styles*******************************/
+    
+            #review img{
+                max-width: 90%;
+            }
+    
+            #review label{
+                max-width: 90%;
+            }
+    
+    
+            #review h3{
+                margin-top: 40px;
+                margin-left: 2.5%;
+                color: #a60303;
+                font-size: 1.625em;
+                margin-bottom: 10px;
+            }
+
+            #review p{
+                width: 90%;
+                margin-left: 6%;
+                margin-bottom: 20px;
+                font-size: 1em;
+                line-height: 22px;
+                color: #8c8c8c;
+            }
+    
+    
+            .review_box_gameplay{
+                display: none;
+            }
+    
+    
+            .review_box_story{
+                display: none;
+            }
+    
+    
+            .review_box_visuals{
+                display: none;
+            }
+    
+    
+            .overall_box{
+                display: none;
+            }
     
 }
 
